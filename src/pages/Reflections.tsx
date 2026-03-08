@@ -42,6 +42,14 @@ const whitepapers = [
     language: "Dutch",
   },
   {
+    title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
+    description:
+      "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
+    type: "Article",
+    pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
+    language: "Dutch",
+  },
+  {
     title: "Designing leadership programs that last",
     description:
       "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
