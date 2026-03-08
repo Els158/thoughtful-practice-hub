@@ -1,5 +1,7 @@
+import { useState } from "react";
 import Layout from "@/components/Layout";
-import { FileText, Wrench, PenLine } from "lucide-react";
+import { FileText, Wrench, PenLine, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const reflections = [
   {
@@ -66,96 +68,179 @@ const tools = [
   },
 ];
 
-const Reflections = () => (
-  <Layout>
-    {/* Header */}
-    <section className="section-padding">
-      <div className="container-narrow">
-        <p className="text-label mb-4">Reflections & Inspiration</p>
-        <h1 className="mb-8">Ideas, tools and perspectives from practice</h1>
-        <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-          A space for sharing thinking about leadership, learning and organisational development — through short reflections, longer publications and practical tools.
-        </p>
-      </div>
-    </section>
+const Reflections = () => {
+  const [downloadModal, setDownloadModal] = useState<{ title: string } | null>(null);
 
-    {/* Sub-navigation */}
-    <section className="border-b border-border">
-      <div className="container-wide flex gap-8 overflow-x-auto">
-        <a href="#reflections" className="text-sm tracking-wide py-4 border-b-2 border-primary text-primary font-medium">
-          Reflections
-        </a>
-        <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-          Publications
-        </a>
-        <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-          Practical Tools
-        </a>
-      </div>
-    </section>
+  const handleDownloadClick = (title: string) => {
+    setDownloadModal({ title });
+  };
 
-    {/* Reflections */}
-    <section id="reflections" className="section-padding">
-      <div className="container-wide">
-        <div className="flex items-center gap-3 mb-10">
-          <PenLine size={20} className="text-primary" />
-          <h2 className="text-2xl md:text-3xl">Reflections</h2>
-        </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {reflections.map((r, i) => (
-            <article key={i} className="card-soft flex flex-col">
-              <p className="text-sm text-muted-foreground mb-3">{r.date}</p>
-              <h3 className="text-lg md:text-xl mb-4 font-serif">{r.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed flex-1">{r.excerpt}</p>
-              <p className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline">Read more</p>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
+  return (
+    <Layout>
+      {/* Download Modal */}
+      {downloadModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/40 backdrop-blur-sm">
+          <div className="bg-background rounded-lg shadow-lg max-w-md w-full mx-4 p-8 relative">
+            <button
+              onClick={() => setDownloadModal(null)}
+              className="absolute top-4 right-4 text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <X size={20} />
+            </button>
+            <h3 className="text-xl font-serif mb-2">{downloadModal.title}</h3>
+            <p className="text-muted-foreground text-sm mb-6">
+              Fill in your details to receive the download link.
+            </p>
 
-    {/* Publications / Whitepapers */}
-    <section id="publications" className="section-padding bg-secondary">
-      <div className="container-wide">
-        <div className="flex items-center gap-3 mb-10">
-          <FileText size={20} className="text-primary" />
-          <h2 className="text-2xl md:text-3xl">Publications & Whitepapers</h2>
+            {/* 
+              HubSpot embed placeholder — replace this form with your HubSpot embedded form.
+              You'll need your Portal ID and Form ID from HubSpot:
+              
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+              <script>
+                hbspt.forms.create({
+                  region: "eu1",
+                  portalId: "YOUR_PORTAL_ID",
+                  formId: "YOUR_FORM_ID"
+                });
+              </script>
+            */}
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                // Placeholder: will be replaced by HubSpot form
+                setDownloadModal(null);
+              }}
+              className="space-y-4"
+            >
+              <div>
+                <label className="text-sm font-medium text-foreground block mb-1.5">Name</label>
+                <input
+                  type="text"
+                  required
+                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  placeholder="Your name"
+                />
+              </div>
+              <div>
+                <label className="text-sm font-medium text-foreground block mb-1.5">Email</label>
+                <input
+                  type="email"
+                  required
+                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <Button type="submit" className="w-full">
+                Get download link
+              </Button>
+            </form>
+            <p className="text-xs text-muted-foreground mt-4 text-center">
+              Your information will be handled according to our privacy policy.
+            </p>
+          </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {whitepapers.map((w, i) => (
-            <div key={i} className="card-soft flex flex-col">
-              <span className="text-label mb-3">{w.type}</span>
-              <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
-              <p className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline">Download PDF</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+      )}
 
-    {/* Practical L&D Tools */}
-    <section id="tools" className="section-padding">
-      <div className="container-wide">
-        <div className="flex items-center gap-3 mb-4">
-          <Wrench size={20} className="text-primary" />
-          <h2 className="text-2xl md:text-3xl">Practical L&D Tools</h2>
+      {/* Header */}
+      <section className="section-padding">
+        <div className="container-narrow">
+          <p className="text-label mb-4">Reflections & Inspiration</p>
+          <h1 className="mb-8">Ideas, tools and perspectives from practice</h1>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+            A space for sharing thinking about leadership, learning and organisational development — through short reflections, longer publications and practical tools.
+          </p>
         </div>
-        <p className="text-muted-foreground leading-relaxed mb-10">
-          Free resources and templates for learning & development professionals, team leads and HR practitioners.
-        </p>
-        <div className="grid sm:grid-cols-2 gap-6">
-          {tools.map((t, i) => (
-            <div key={i} className="card-soft">
-              <h3 className="text-lg md:text-xl mb-3 font-serif">{t.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{t.description}</p>
-              <p className="mt-5 text-sm text-primary font-medium cursor-pointer hover:underline">Download</p>
-            </div>
-          ))}
+      </section>
+
+      {/* Sub-navigation */}
+      <section className="border-b border-border">
+        <div className="container-wide flex gap-8 overflow-x-auto">
+          <a href="#reflections" className="text-sm tracking-wide py-4 border-b-2 border-primary text-primary font-medium">
+            Reflections
+          </a>
+          <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
+            Publications
+          </a>
+          <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
+            Practical Tools
+          </a>
         </div>
-      </div>
-    </section>
-  </Layout>
-);
+      </section>
+
+      {/* Reflections */}
+      <section id="reflections" className="section-padding">
+        <div className="container-wide">
+          <div className="flex items-center gap-3 mb-10">
+            <PenLine size={20} className="text-primary" />
+            <h2 className="text-2xl md:text-3xl">Reflections</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {reflections.map((r, i) => (
+              <article key={i} className="card-soft flex flex-col">
+                <p className="text-sm text-muted-foreground mb-3">{r.date}</p>
+                <h3 className="text-lg md:text-xl mb-4 font-serif">{r.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{r.excerpt}</p>
+                <p className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline">Read more</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Publications / Whitepapers */}
+      <section id="publications" className="section-padding bg-secondary">
+        <div className="container-wide">
+          <div className="flex items-center gap-3 mb-10">
+            <FileText size={20} className="text-primary" />
+            <h2 className="text-2xl md:text-3xl">Publications & Whitepapers</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {whitepapers.map((w, i) => (
+              <div key={i} className="card-soft flex flex-col">
+                <span className="text-label mb-3">{w.type}</span>
+                <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
+                <p
+                  onClick={() => handleDownloadClick(w.title)}
+                  className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline"
+                >
+                  Download PDF
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Practical L&D Tools */}
+      <section id="tools" className="section-padding">
+        <div className="container-wide">
+          <div className="flex items-center gap-3 mb-4">
+            <Wrench size={20} className="text-primary" />
+            <h2 className="text-2xl md:text-3xl">Practical L&D Tools</h2>
+          </div>
+          <p className="text-muted-foreground leading-relaxed mb-10">
+            Free resources and templates for learning & development professionals, team leads and HR practitioners.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-6">
+            {tools.map((t, i) => (
+              <div key={i} className="card-soft">
+                <h3 className="text-lg md:text-xl mb-3 font-serif">{t.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{t.description}</p>
+                <p
+                  onClick={() => handleDownloadClick(t.title)}
+                  className="mt-5 text-sm text-primary font-medium cursor-pointer hover:underline"
+                >
+                  Download
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
 
 export default Reflections;
