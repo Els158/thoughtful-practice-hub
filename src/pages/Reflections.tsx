@@ -50,6 +50,14 @@ const whitepapers = [
     language: "Dutch",
   },
   {
+    title: "Els Oosthoek — HRtop100 Podcast",
+    description:
+      "A conversation about the future of organisational development in healthcare, recorded for the HRtop100 podcast series. Els shares her perspective as Manager Organisatie & Ontwikkeling at Topaz on navigating change when the present is already demanding.",
+    type: "Podcast",
+    pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
+    language: "Dutch",
+  },
+  {
     title: "Designing leadership programs that last",
     description:
       "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
@@ -232,7 +240,7 @@ const Reflections = () => {
                     rel="noopener noreferrer"
                     className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block"
                   >
-                    {w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
+                    {w.type === 'Podcast' ? 'Listen to podcast' : w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
                   </a>
                 ) : (
                   <p
