@@ -52,12 +52,9 @@ const Index = () => {
                 <h1 className="text-foreground">
                   Bringing development into the heart of organisations.
                 </h1>
-                <p className="text-accent-foreground/70 text-xl font-light italic mt-4">
-                  Strategic when necessary, hands-on when needed.
-                </p>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Working with organisations to shape learning, leadership and development programmes — from first idea through design, facilitation and beyond.
+                Strategic when necessary and hands-on where needed. Working alongside organisations on learning and development programmes, from the first idea through design and facilitation.
               </p>
               <Link to="/contact" className="btn-primary">
                 Schedule a conversation
