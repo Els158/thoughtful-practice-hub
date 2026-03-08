@@ -315,7 +315,7 @@ const Reflections = () => {
             <h2 className="text-2xl md:text-3xl">Practical L&D Tools</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Twee canvassen gebaseerd op de 8 perspectieven die Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006) heeft benoemd — opgesplitst in een analyse- en een uitvoeringsfase.
+            Two canvases based on the eight perspectives described by Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006) — split into an analysis phase and a design &amp; execution phase.
           </p>
 
           {[analysisCanvas, executionCanvas].map((canvas, ci) => (
