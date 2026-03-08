@@ -26,6 +26,13 @@ const reflections = [
 
 const whitepapers = [
   {
+    title: "De positieve kracht van macht",
+    description:
+      "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
+    type: "Article",
+    pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
+  },
+  {
     title: "Designing leadership programs that last",
     description:
       "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
@@ -201,12 +208,23 @@ const Reflections = () => {
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
-                <p
-                  onClick={() => handleDownloadClick(w.title)}
-                  className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline"
-                >
-                  Download PDF
-                </p>
+                {w.pdfUrl ? (
+                  <a
+                    href={w.pdfUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block"
+                  >
+                    Download PDF
+                  </a>
+                ) : (
+                  <p
+                    onClick={() => handleDownloadClick(w.title)}
+                    className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline"
+                  >
+                    Download PDF
+                  </p>
+                )}
               </div>
             ))}
           </div>
