@@ -1,7 +1,6 @@
 import Layout from "@/components/Layout";
 import { Mail } from "lucide-react";
 import elsPortrait from "@/assets/els-portrait.jpg";
-import morrisPattern from "@/assets/morris-mallow-pattern.jpg";
 
 const Contact = () => (
   <Layout>
@@ -40,21 +39,12 @@ const Contact = () => (
           </div>
 
           {/* Image side — portrait on scenery */}
-          <div className="relative flex items-center justify-center">
-            <div className="rounded-lg overflow-hidden aspect-square w-full max-w-sm mx-auto">
-              <img
-                src={morrisPattern}
-                alt="William Morris Mallow pattern"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <img
-                src={elsPortrait}
-                alt="Els Oosthoek"
-                className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover object-top border-4 border-background shadow-lg"
-              />
-            </div>
+          <div>
+            <img
+              src={elsPortrait}
+              alt="Els Oosthoek"
+              className="w-full max-w-xs mx-auto rounded-2xl object-cover object-top shadow-md"
+            />
           </div>
         </div>
       </div>
