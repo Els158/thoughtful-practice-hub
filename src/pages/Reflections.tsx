@@ -3,26 +3,6 @@ import Layout from "@/components/Layout";
 import { FileText, Wrench, PenLine, X, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const reflections = [
-  {
-    date: "March 2026",
-    title: "On the patience that learning requires",
-    excerpt:
-      "We live in a culture that celebrates speed and decisive action. But the most meaningful learning I have witnessed — in leaders, in teams, in organisations — has always taken time.",
-  },
-  {
-    date: "January 2026",
-    title: "Leadership as a practice, not a position",
-    excerpt:
-      "One of the most persistent misunderstandings about leadership is that it is something you become rather than something you do.",
-  },
-  {
-    date: "November 2025",
-    title: "What organisations forget about change",
-    excerpt:
-      "Organisations often approach change as a project with a clear beginning, middle and end. But the most important changes are ongoing.",
-  },
-];
 
 const whitepapers = [
   {
