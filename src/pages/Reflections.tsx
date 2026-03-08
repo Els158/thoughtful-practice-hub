@@ -145,13 +145,10 @@ const Reflections = () => {
       )}
 
       {/* Header */}
-      <section className="section-padding">
+      <section className="pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="container-narrow">
           <p className="text-label mb-4">Reflections & Inspiration</p>
-          <h1 className="mb-8">Ideas, tools and perspectives from practice</h1>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            A space for sharing thinking about leadership, learning and organisational development — through short reflections, longer publications and practical tools.
-          </p>
+          <h1>Ideas, tools and perspectives from practice</h1>
         </div>
       </section>
 
