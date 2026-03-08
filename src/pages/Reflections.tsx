@@ -179,10 +179,10 @@ const Reflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Every now and then, something catches my attention — a conversation, an image, a moment in the kitchen — and it turns into a reflection on work, leadership, or organisational life. I write the way I think: starting somewhere unexpected, then finding the connection to what matters in organisations.
+              Every now and then, something catches my attention - a conversation, an image, a moment in the kitchen - and it turns into a reflection on work, leadership or organisational life. My writing often starts somewhere unexpected, before finding its way to what matters in organisations.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              These reflections live on LinkedIn, where they tend to spark the kind of conversations I value most — honest, curious, and sometimes a little uncomfortable.
+              These reflections live on LinkedIn, where they tend to spark the kind of conversations I value most: honest, curious and sometimes a little uncomfortable.
             </p>
             <a
               href="https://www.linkedin.com/in/elsoosthoek/"
