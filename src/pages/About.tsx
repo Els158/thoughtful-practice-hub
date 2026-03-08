@@ -18,13 +18,19 @@ const About = () => (
             <p className="text-label">About</p>
             <h1>Making growth and progress possible</h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              As an innovative HR director — and as a mom — my life is all about making growth and progress possible. For more than twenty years, I have been bringing development into the heart of organisations.
+              As an HR leader — and as a mother — my life has always been about making growth and progress possible. For more than twenty years I have worked at the intersection of people, organisations and development.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In the coming years, I am choosing to focus on the work that energises me most: tailor-made leadership development programmes. From initial idea and co-creation to design, procurement, testing and facilitation — ensuring leadership development truly aligns with the organisation's strategic direction. This is where my experience, creativity and ability to connect come together.
+              In the coming years, I am choosing to focus on the work that energises me most: shaping and guiding programmes that help organisations learn and develop. This can involve leadership development, learning programmes, internal academies or development initiatives connected to organisational change.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              With teams that I lead, I like to work in two directions: achieving professional growth and delivering business results. People I have worked with appreciate my organisational stamina, care and improvisational talent. Having worked as a consultant, I am able to make myself at home quickly within organisations.
+              From the first idea and co-creation through design, procurement, testing and facilitation, I enjoy helping organisations translate their ambitions into meaningful development programmes.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              In the teams I work with, I always try to move in two directions at once: supporting people's professional growth while contributing to the organisation's goals. People I have worked with often mention my organisational stamina, care and improvisational talent.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Having worked both inside organisations and as a consultant, I am used to finding my way quickly and becoming part of the context I work in.
             </p>
           </div>
           <div className="md:col-span-2">
