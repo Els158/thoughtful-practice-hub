@@ -208,12 +208,23 @@ const Reflections = () => {
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
-                <p
-                  onClick={() => handleDownloadClick(w.title)}
-                  className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline"
-                >
-                  Download PDF
-                </p>
+                {w.pdfUrl ? (
+                  <a
+                    href={w.pdfUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block"
+                  >
+                    Download PDF
+                  </a>
+                ) : (
+                  <p
+                    onClick={() => handleDownloadClick(w.title)}
+                    className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline"
+                  >
+                    Download PDF
+                  </p>
+                )}
               </div>
             ))}
           </div>
