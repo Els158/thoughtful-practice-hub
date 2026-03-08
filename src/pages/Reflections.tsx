@@ -33,6 +33,12 @@ const whitepapers = [
     pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
   },
   {
+    title: "Werk in transitie — Een HX benadering van organisatieontwerp",
+    description:
+      "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
+    type: "Whitepaper",
+    pdfUrl: "/publications/werk-in-transitie.pdf",
+  {
     title: "Designing leadership programs that last",
     description:
       "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
