@@ -1,13 +1,6 @@
 import Layout from "@/components/Layout";
 import seascape from "@/assets/seascape.jpg";
 
-const beliefs = [
-  "Growth happens when development is brought into the heart of the organisation.",
-  "Leadership development works best when it is tailor-made and aligned with strategic direction.",
-  "The best programs combine co-creation, creativity and the ability to connect people.",
-  "Professional growth and business results go hand in hand.",
-  "Structure creates freedom — when designed thoughtfully.",
-];
 
 const About = () => (
   <Layout>
