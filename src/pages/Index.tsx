@@ -47,11 +47,17 @@ const Index = () => {
         <div className="container-narrow">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-8">
-              <h1 className="text-foreground">
-                Bringing development into the heart of organisations.
-              </h1>
+              <div>
+                <p className="text-label mb-3">Learning · Leadership · Development</p>
+                <h1 className="text-foreground">
+                  Bringing development into the heart of organisations.
+                </h1>
+                <p className="text-accent-foreground/70 text-xl font-light italic mt-4">
+                  Strategic when necessary, hands-on when needed.
+                </p>
+              </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I work with organisations on programmes that support learning, leadership and organisational development. From the first idea and co-creation through design, testing and facilitation, I help shape initiatives that connect people's development with the organisation's strategic direction.
+                Working with organisations on programmes that support learning, leadership and organisational development — from the first idea and co-creation through design, testing and facilitation, shaping initiatives that connect people's development with the organisation's strategic direction.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 These programmes can take different forms — leadership journeys, learning programmes, internal academies or development initiatives connected to organisational change.
