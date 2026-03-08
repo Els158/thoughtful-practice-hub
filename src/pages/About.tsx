@@ -11,7 +11,7 @@ const About = () => (
             <p className="text-label">About</p>
             <h1>Making growth and progress possible</h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              As an HR leader — and as a mother — my life has always been about making growth and progress possible. For more than twenty years I have worked at the intersection of people, organisations and development.
+              As an HR leader – and as a mother – my life has always been about making growth and progress possible. For more than twenty years I have worked at the intersection of people, organisations and development.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               In the coming years, I am choosing to focus on the work that energises me most: shaping and guiding programmes that help organisations learn and develop. This can involve leadership development, learning programmes, internal academies or development initiatives connected to organisational change.
