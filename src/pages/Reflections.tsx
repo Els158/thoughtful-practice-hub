@@ -47,28 +47,125 @@ const whitepapers = [
   },
 ];
 
-const tools = [
-  {
-    title: "Leadership reflection canvas",
-    description:
-      "A structured template for leaders to reflect on their practice, identify patterns and set intentions for growth.",
-  },
-  {
-    title: "Team learning conversation guide",
-    description:
-      "A facilitation guide for team conversations that move beyond surface-level discussion into genuine shared learning.",
-  },
-  {
-    title: "Program design checklist",
-    description:
-      "A practical checklist for designing learning programs — from needs analysis to evaluation and sustainability.",
-  },
-  {
-    title: "Onboarding experience mapper",
-    description:
-      "A visual tool for mapping the new-hire experience across touchpoints, identifying moments that matter most.",
-  },
-];
+const analysisCanvas = {
+  title: "The Collector — Analyse",
+  subtitle: "Welke vragen kunnen we stellen om alle relevante informatie te verzamelen, voordat gestart wordt met het ontwerpen van een leerinterventie?",
+  sections: [
+    {
+      title: "Inhoud",
+      color: "bg-primary/10 border-primary/20",
+      questions: [
+        "Welke inhoud moet er in de oplossing terugkomen?",
+        "Welke inhoud van het werk moet terugkomen in de oplossing?",
+        "Wat moeten de deelnemers kennen, kunnen en hoe moeten ze het doen?",
+        "Welke competenties worden geraakt?",
+        "Welke houding is belangrijk?",
+      ],
+    },
+    {
+      title: "Probleemsituatie",
+      color: "bg-primary/10 border-primary/20",
+      questions: [
+        "Wat is de huidige situatie (vanuit het perspectief van de afdeling en vanuit het perspectief van de deelnemers en opdrachtgever)?",
+        "Wat is het op te lossen probleem?",
+        "Voor wie is het een probleem?",
+        "Wat is jouw probleem met het probleem?",
+        "Heeft het probleem meerdere oorzaken?",
+        "Sinds wanneer is het een probleem?",
+        "Hoe is het probleem tot nu toe aangepakt?",
+        "Wat gebeurt er als we niets doen?",
+      ],
+    },
+    {
+      title: "Motivatie en wensen van deelnemers",
+      color: "bg-accent/30 border-accent/40",
+      questions: [
+        "Wat zijn de motivatie en de wensen van de deelnemers?",
+        "Hebben alle deelnemers dezelfde motivatie en wensen?",
+        "Zijn de deelnemers betrokken bij het probleem?",
+        "Delen de medewerkers jouw analyse en oplossing? Hoe weet je dat?",
+        "Is er sprake van weerstand?",
+        "Als ik hen jouw verhaal voorleg, wat is dan hun reactie?",
+        "Wat zou maken dat medewerkers zeggen: ja, dat wil ik!",
+      ],
+    },
+    {
+      title: "Wensen van Stakeholders",
+      color: "bg-accent/30 border-accent/40",
+      questions: [
+        "Wie is betrokken bij het probleem?",
+        "Wie zijn de betrokken partijen en wat zijn hun opvattingen en belangen?",
+        "Wat is jouw probleem met betrokken partijen?",
+        "Hoe verloopt de samenwerking met andere teams?",
+        "Hoe maak je problemen bespreekbaar met andere teams?",
+        "Wat is het resultaat van de besprekingen?",
+        "Wat doe je als je het niet uit komt?",
+        "Wat betekent het voor jouw afdeling als er geen samenwerking is met andere teams?",
+        "Wie denkt er anders over dit vraagstuk?",
+        "Wie profiteren er van een oplossing?",
+      ],
+    },
+  ],
+};
+
+const executionCanvas = {
+  title: "The Collector — Executie",
+  subtitle: "Welke vragen helpen bij het vormgeven van de leerinterventie, afgestemd op organisatie, opdrachtgever en deelnemers?",
+  sections: [
+    {
+      title: "Beelden van opdrachtgever en adviseur",
+      color: "bg-primary/10 border-primary/20",
+      questions: [
+        "Wat zijn de oplossingsvoorkeuren van opdrachtgever/adviseur?",
+        "Welke oplossing heb je zelf in gedachten?",
+        "Wat is de ideale oplossing?",
+        "Welke oplossing kwam er direct bij je op?",
+        "Hoe lang gaat de oplossing duren?",
+        "Welke andere oplossing zou werken?",
+        "Welke voor- en nadelen hebben jouw oplossing en de alternatieven?",
+        "Wat is je eigen leervoorkeur?",
+      ],
+    },
+    {
+      title: "Gewenst resultaat",
+      color: "bg-primary/10 border-primary/20",
+      questions: [
+        "Wat is het gewenste resultaat?",
+        "Hoe ziet het er over 1 jaar uit (kwantiteit, kwaliteit, blijdigheid)?",
+        "Beschrijf de situatie als het probleem opgelost is. Hoe zie je dat? Waaraan zie je dat?",
+        "Wanneer moet dit resultaat bereikt zijn?",
+        "Wanneer ben je tevreden?",
+        "Hoe meet je of het resultaat bereikt is?",
+      ],
+    },
+    {
+      title: "Verschillen in leren van deelnemers",
+      color: "bg-accent/30 border-accent/40",
+      questions: [
+        "Wat is de doelgroep?",
+        "Welke verschillende rollen zijn relevant?",
+        "Hoe is de samenstelling van het team?",
+        "Welke verschillen zijn er tussen de deelnemers?",
+        "Wat zijn er verschillen in opleidingsniveau, duur dienstverband, functie, leeftijd, etniciteit etc.?",
+        "Hoe zou je rekening kunnen houden met de verschillen in je team?",
+        "Wat is je eigen leervoorkeur?",
+      ],
+    },
+    {
+      title: "Fit met strategie van de organisatie",
+      color: "bg-accent/30 border-accent/40",
+      questions: [
+        "Wat is de link met de missie, visie en doelen van de organisatie?",
+        "Hoe draagt dit bij aan de doelstellingen van UWV/team/divisie etc.?",
+        "Hoe wordt de klant hier beter van?",
+        "Welk beleid van UWV is relevant bij dit vraagstuk?",
+        "Hoe past het binnen de HRM-instrumenten / UWV-instrumenten (HRM-cyclus etc)?",
+        "Wat is jouw product of dienst?",
+        "Hoe past jouw team in het geheel van de organisatie / van welke andere afdeling ben je afhankelijk?",
+      ],
+    },
+  ],
+};
 
 const Reflections = () => {
   const [downloadModal, setDownloadModal] = useState<{ title: string } | null>(null);
