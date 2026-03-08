@@ -46,7 +46,7 @@ const About = () => (
           Based in Overveen, the Netherlands, I have built my career across consulting and in-house HR leadership roles. My education includes SIOO and Utrecht University.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          As an entrepreneurial networker, I get great joy out of making relevant connections. I am always open to meeting more minds — whether as an advisor, facilitator or thought partner on leadership and organisational development.
+          As an entrepreneurial networker, I get great joy out of making relevant connections. I am always open to meeting more minds – whether as an advisor, facilitator or thought partner on leadership and organisational development.
         </p>
       </div>
     </section>
