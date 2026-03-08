@@ -57,10 +57,7 @@ const Index = () => {
                 </p>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Working with organisations on programmes that support learning, leadership and organisational development — from the first idea and co-creation through design, testing and facilitation, shaping initiatives that connect people's development with the organisation's strategic direction.
-              </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                These programmes can take different forms — leadership journeys, learning programmes, internal academies or development initiatives connected to organisational change.
+                Working with organisations to shape learning, leadership and development programmes — from first idea through design, facilitation and beyond.
               </p>
               <Link to="/contact" className="btn-primary">
                 Schedule a conversation
