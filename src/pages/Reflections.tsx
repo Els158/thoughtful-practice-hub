@@ -26,6 +26,13 @@ const reflections = [
 
 const whitepapers = [
   {
+    title: "De positieve kracht van macht",
+    description:
+      "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
+    type: "Article",
+    pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
+  },
+  {
     title: "Designing leadership programs that last",
     description:
       "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
