@@ -131,9 +131,9 @@ const Index = () => {
       <section className="section-padding">
         <div className="container-narrow text-center">
           <p className="text-label mb-4">About</p>
-          <h2 className="mb-8 mx-auto">The person behind the work</h2>
+          <h2 className="mb-8 mx-auto">Els Oosthoek</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mx-auto mb-8">
-            With over fifteen years at the intersection of leadership, learning and organisational development, I have worked with organisations across industries to design programs and processes that create lasting change.
+            With over twenty years of experience bringing development into the heart of organisations, I focus on tailor-made leadership development programmes — combining experience, creativity and the ability to connect people and ideas.
           </p>
           <Link to="/about" className="btn-outline">Read more</Link>
         </div>
