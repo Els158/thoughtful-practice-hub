@@ -240,7 +240,7 @@ const Reflections = () => {
                     rel="noopener noreferrer"
                     className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block"
                   >
-                    {w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
+                    {w.type === 'Podcast' ? 'Listen to podcast' : w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
                   </a>
                 ) : (
                   <p
