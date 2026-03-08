@@ -52,7 +52,7 @@ const Contact = () => (
               <img
                 src={elsPortrait}
                 alt="Els Oosthoek"
-                className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-background shadow-lg"
+                className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover object-top border-4 border-background shadow-lg"
               />
             </div>
           </div>
