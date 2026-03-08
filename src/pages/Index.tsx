@@ -51,7 +51,10 @@ const Index = () => {
                 Bringing development into the heart of organisations.
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I work with organisations on tailor-made leadership development programmes — from initial idea and co-creation to design, testing and facilitation — ensuring leadership development truly aligns with strategic direction.
+                I work with organisations on programmes that support learning, leadership and organisational development. From the first idea and co-creation through design, testing and facilitation, I help shape initiatives that connect people's development with the organisation's strategic direction.
+              </p>
+              <p className="text-muted-foreground text-lg leading-relaxed">
+                These programmes can take different forms — leadership journeys, learning programmes, internal academies or development initiatives connected to organisational change.
               </p>
               <Link to="/contact" className="btn-primary">
                 Schedule a conversation
