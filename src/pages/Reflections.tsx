@@ -315,7 +315,7 @@ const Reflections = () => {
             <h2 className="text-2xl md:text-3xl">Practical L&D Tools</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Two canvases based on the eight perspectives described by Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006) — split into an analysis phase and a design &amp; execution phase.
+            Kurt Lewin said: <em>"There is nothing as practical as a good theory."</em> That's why I love to use evidence-based material in my work. These two canvases, for instance, are based on the eight learning perspectives described by Dutch learning professor Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
 
           {[analysisCanvas, executionCanvas].map((canvas, ci) => (
