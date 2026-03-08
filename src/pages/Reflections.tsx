@@ -58,22 +58,12 @@ const whitepapers = [
     language: "Dutch",
   },
   {
-    title: "Designing leadership programs that last",
+    title: "Hoe ontwikkel je een leerplatform",
     description:
-      "A practical exploration of what makes leadership development programmes sustainable — from design principles to embedding learning in everyday work.",
+      "A practical guide on how to develop a learning platform within organisations — from vision and design to implementation and adoption.",
     type: "Whitepaper",
-  },
-  {
-    title: "From training to learning culture",
-    description:
-      "How organisations can shift from one-off training events towards a culture where continuous learning is woven into the fabric of work.",
-    type: "Whitepaper",
-  },
-  {
-    title: "The role of reflection in professional development",
-    description:
-      "Why structured reflection matters for professionals and how to create the conditions for it within organisations.",
-    type: "Article",
+    pdfUrl: "/publications/hoe-ontwikkel-je-een-leerplatform.pdf",
+    language: "Dutch",
   },
 ];
 
