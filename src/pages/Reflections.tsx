@@ -170,23 +170,30 @@ const Reflections = () => {
         </div>
       </section>
 
-      {/* Reflections */}
+      {/* Reflections — LinkedIn */}
       <section id="reflections" className="section-padding">
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-10">
             <PenLine size={20} className="text-primary" />
             <h2 className="text-2xl md:text-3xl">Reflections</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {reflections.map((r, i) => (
-              <article key={i} className="card-soft flex flex-col">
-                <p className="text-sm text-muted-foreground mb-3">{r.date}</p>
-                <h3 className="text-lg md:text-xl mb-4 font-serif">{r.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{r.excerpt}</p>
-                <p className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline">Read more</p>
-              </article>
-            ))}
-          </div>
+          <article className="card-soft max-w-3xl">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Every now and then, something catches my attention — a conversation, an image, a moment in the kitchen — and it turns into a reflection on work, leadership, or organisational life. I write the way I think: starting somewhere unexpected, then finding the connection to what matters in organisations.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              These reflections live on LinkedIn, where they tend to spark the kind of conversations I value most — honest, curious, and sometimes a little uncomfortable.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/elsoosthoek/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+            >
+              <Linkedin size={16} />
+              Follow my reflections on LinkedIn
+            </a>
+          </article>
         </div>
       </section>
 
