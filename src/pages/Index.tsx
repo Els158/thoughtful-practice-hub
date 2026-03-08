@@ -122,7 +122,7 @@ const Index = () => {
             ))}
           </div>
           <div className="mt-10">
-            <Link to="/practice" className="btn-outline">View all projects</Link>
+            <Link to="/reflections" className="btn-outline">Explore reflections & tools</Link>
           </div>
         </div>
       </section>
