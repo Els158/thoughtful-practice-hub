@@ -28,14 +28,14 @@ const whitepapers = [
   {
     title: "De positieve kracht van macht",
     description:
-      "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
+      "Een verkenning van vier typen machtsspelen in organisaties, geanalyseerd aan de hand van een praktijkcasus uit learning & development. Geschreven met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
     type: "Article",
     pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
   },
   {
     title: "Werk in transitie — Een HX benadering van organisatieontwerp",
     description:
-      "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
+      "Hoe kunnen organisaties werk zo inrichten dat het mensen écht ondersteunt? Dit whitepaper verkent een Human Experience (HX) benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende pijlers.",
     type: "Whitepaper",
     pdfUrl: "/publications/werk-in-transitie.pdf",
   },
