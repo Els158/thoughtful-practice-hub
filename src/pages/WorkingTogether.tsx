@@ -3,10 +3,10 @@ import Layout from "@/components/Layout";
 
 const services = [
   {
-    label: "Program Leadership",
-    title: "Guiding learning programs from vision to impact",
+    label: "Strategic Advisory",
+    title: "Thinking alongside you",
     description:
-      "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn.",
+      "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity.",
   },
   {
     label: "Program Design",
@@ -15,19 +15,18 @@ const services = [
       "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation.",
   },
   {
+    label: "Program Leadership",
+    title: "Guiding learning programs from vision to impact",
+    description:
+      "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn.",
+  },
+  {
     label: "Facilitation & Reflection",
     title: "Creating space for insight and growth",
     description:
       "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge.",
   },
-  {
-    label: "Strategic Advisory",
-    title: "Thinking alongside you",
-    description:
-      "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity.",
-  },
 ];
-
 const WorkingTogether = () => (
   <Layout>
     <section className="section-padding">
