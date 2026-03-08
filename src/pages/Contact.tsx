@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Mail } from "lucide-react";
-import elsPortrait from "@/assets/els-portrait.jpg";
+import elsPortrait from "@/assets/els-portrait-brown.jpg";
 
 const Contact = () => (
   <Layout>
