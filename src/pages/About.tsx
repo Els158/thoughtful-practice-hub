@@ -1,13 +1,6 @@
 import Layout from "@/components/Layout";
 import seascape from "@/assets/seascape.jpg";
 
-const beliefs = [
-  "Growth happens when development is brought into the heart of the organisation.",
-  "Leadership development works best when it is tailor-made and aligned with strategic direction.",
-  "The best programs combine co-creation, creativity and the ability to connect people.",
-  "Professional growth and business results go hand in hand.",
-  "Structure creates freedom — when designed thoughtfully.",
-];
 
 const About = () => (
   <Layout>
@@ -44,20 +37,6 @@ const About = () => (
       </div>
     </section>
 
-    <section className="section-padding bg-secondary">
-      <div className="container-narrow">
-        <p className="text-label mb-4">What I believe</p>
-        <h2 className="mb-12">Guiding principles</h2>
-        <div className="space-y-6">
-          {beliefs.map((b, i) => (
-            <div key={i} className="flex gap-4 items-start">
-              <span className="text-primary text-xl leading-none mt-1">·</span>
-              <p className="text-foreground text-lg font-serif italic">{b}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
 
     <section className="section-padding">
       <div className="container-narrow">
