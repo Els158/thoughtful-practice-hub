@@ -232,7 +232,7 @@ const Reflections = () => {
                     rel="noopener noreferrer"
                     className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block"
                   >
-                    Download PDF{w.language ? ` (${w.language})` : ''}
+                    {w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
                   </a>
                 ) : (
                   <p
