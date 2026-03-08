@@ -48,10 +48,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-8">
               <h1 className="text-foreground">
-                Helping organisations create meaningful learning and leadership development.
+                Bringing development into the heart of organisations.
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I work with organisations on learning programs, leadership development and organisational questions — where reflection and practice come together.
+                I work with organisations on tailor-made leadership development programmes — from initial idea and co-creation to design, testing and facilitation — ensuring leadership development truly aligns with strategic direction.
               </p>
               <Link to="/contact" className="btn-primary">
                 Schedule a conversation
@@ -131,9 +131,9 @@ const Index = () => {
       <section className="section-padding">
         <div className="container-narrow text-center">
           <p className="text-label mb-4">About</p>
-          <h2 className="mb-8 mx-auto">The person behind the work</h2>
+          <h2 className="mb-8 mx-auto">Els Oosthoek</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mx-auto mb-8">
-            With over fifteen years at the intersection of leadership, learning and organisational development, I have worked with organisations across industries to design programs and processes that create lasting change.
+            With over twenty years of experience bringing development into the heart of organisations, I focus on tailor-made leadership development programmes — combining experience, creativity and the ability to connect people and ideas.
           </p>
           <Link to="/about" className="btn-outline">Read more</Link>
         </div>
