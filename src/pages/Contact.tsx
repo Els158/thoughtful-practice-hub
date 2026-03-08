@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import { Mail } from "lucide-react";
 import elsPortrait from "@/assets/els-portrait.jpg";
-import seascape from "@/assets/seascape.jpg";
+import morrisPattern from "@/assets/morris-mallow-pattern.jpg";
 
 const Contact = () => (
   <Layout>
