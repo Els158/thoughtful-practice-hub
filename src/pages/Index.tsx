@@ -54,7 +54,7 @@ const Index = () => {
                 </h1>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Strategic when necessary and hands-on where needed. Working alongside organisations on learning and development programmes, from the first idea through design and facilitation.
+                Strategic when necessary and hands-on where needed. I work alongside organisations on learning and development programmes, from the first idea through design and facilitation.
               </p>
               <Link to="/contact" className="btn-primary">
                 Schedule a conversation
