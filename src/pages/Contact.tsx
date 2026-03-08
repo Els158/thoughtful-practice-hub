@@ -40,19 +40,19 @@ const Contact = () => (
           </div>
 
           {/* Image side — portrait on scenery */}
-          <div className="relative">
-            <div className="rounded-lg overflow-hidden aspect-[4/5]">
+          <div className="relative flex items-center justify-center">
+            <div className="rounded-lg overflow-hidden aspect-square w-full max-w-sm mx-auto">
               <img
-                src={seascape}
-                alt="Natural seascape"
+                src={morrisPattern}
+                alt="William Morris Mallow pattern"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute bottom-6 left-6 right-6 md:bottom-8 md:left-8 md:right-8">
+            <div className="absolute inset-0 flex items-center justify-center">
               <img
                 src={elsPortrait}
                 alt="Els Oosthoek"
-                className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-background shadow-lg"
+                className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-background shadow-lg"
               />
             </div>
           </div>
