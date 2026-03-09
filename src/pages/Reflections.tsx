@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Layout from "@/components/Layout";
 import { FileText, Wrench, PenLine, X, Linkedin } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 
 const whitepapers = [
@@ -47,6 +46,33 @@ const whitepapers = [
   },
 ];
 
+const HubSpotForm = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "//js-eu1.hsforms.net/forms/embed/v2.js";
+    script.charset = "utf-8";
+    script.type = "text/javascript";
+    script.onload = () => {
+      if ((window as any).hbspt && containerRef.current) {
+        (window as any).hbspt.forms.create({
+          region: "eu1",
+          portalId: "147972525",
+          formId: "0b9066c1-1100-4a66-81f1-abfdf9e7b165",
+          target: containerRef.current,
+        });
+      }
+    };
+    document.body.appendChild(script);
+
+    return () => {
+      script.remove();
+    };
+  }, []);
+
+  return <div ref={containerRef} />;
+};
 
 
 const Reflections = () => {
@@ -72,53 +98,7 @@ const Reflections = () => {
             <p className="text-muted-foreground text-sm mb-6">
               Fill in your details to receive the download link.
             </p>
-
-            {/* 
-              HubSpot embed placeholder — replace this form with your HubSpot embedded form.
-              You'll need your Portal ID and Form ID from HubSpot:
-              
-              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-              <script>
-                hbspt.forms.create({
-                  region: "eu1",
-                  portalId: "YOUR_PORTAL_ID",
-                  formId: "YOUR_FORM_ID"
-                });
-              </script>
-            */}
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                // Placeholder: will be replaced by HubSpot form
-                setDownloadModal(null);
-              }}
-              className="space-y-4"
-            >
-              <div>
-                <label className="text-sm font-medium text-foreground block mb-1.5">Name</label>
-                <input
-                  type="text"
-                  required
-                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="text-sm font-medium text-foreground block mb-1.5">Email</label>
-                <input
-                  type="email"
-                  required
-                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <Button type="submit" className="w-full">
-                Get download link
-              </Button>
-            </form>
-            <p className="text-xs text-muted-foreground mt-4 text-center">
-              Your information will be handled according to our privacy policy.
-            </p>
+            <HubSpotForm />
           </div>
         </div>
       )}
