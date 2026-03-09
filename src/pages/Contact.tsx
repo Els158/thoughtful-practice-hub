@@ -35,6 +35,16 @@ const Contact = () => (
                 </svg>
                 <span>Els Oosthoek | LinkedIn</span>
               </a>
+
+              <a
+                href="https://calendly.com/oosthoek"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
+              >
+                <Calendar size={20} className="text-primary" />
+                <span>Book a call</span>
+              </a>
             </div>
           </div>
 
