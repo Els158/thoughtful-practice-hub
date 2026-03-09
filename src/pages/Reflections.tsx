@@ -46,6 +46,33 @@ const whitepapers = [
   },
 ];
 
+const HubSpotForm = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "//js-eu1.hsforms.net/forms/embed/v2.js";
+    script.charset = "utf-8";
+    script.type = "text/javascript";
+    script.onload = () => {
+      if ((window as any).hbspt && containerRef.current) {
+        (window as any).hbspt.forms.create({
+          region: "eu1",
+          portalId: "147972525",
+          formId: "0b9066c1-1100-4a66-81f1-abfdf9e7b165",
+          target: containerRef.current,
+        });
+      }
+    };
+    document.body.appendChild(script);
+
+    return () => {
+      script.remove();
+    };
+  }, []);
+
+  return <div ref={containerRef} />;
+};
 
 
 const Reflections = () => {
