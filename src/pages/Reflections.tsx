@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Layout from "@/components/Layout";
 import { FileText, Wrench, PenLine, X, Linkedin } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 
 const whitepapers = [
