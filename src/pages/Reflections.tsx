@@ -307,7 +307,7 @@ const Reflections = () => {
         </div>
       </section>
 
-      {/* Practical L&D Tools — Two Canvases */}
+      {/* Practical L&D Tools */}
       <section id="tools" className="section-padding">
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-4">
@@ -318,29 +318,20 @@ const Reflections = () => {
             Kurt Lewin said: <em>"There is nothing as practical as a good theory."</em> That's why I love to use evidence-based material in my work. These two canvases, for instance, are based on the eight learning perspectives described by Dutch learning professor Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
 
-          {[analysisCanvas, executionCanvas].map((canvas, ci) => (
-            <div key={ci} className="mb-16 last:mb-0">
-              <div className="card-soft mb-6">
-                <h3 className="text-xl md:text-2xl font-serif mb-2">{canvas.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{canvas.subtitle}</p>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {canvas.sections.map((section, si) => (
-                  <div key={si} className={`rounded-lg border p-5 ${section.color}`}>
-                    <h4 className="font-serif text-base md:text-lg font-medium mb-3">{section.title}</h4>
-                    <ul className="space-y-1.5">
-                      {section.questions.map((q, qi) => (
-                        <li key={qi} className="text-muted-foreground text-sm leading-relaxed flex gap-2">
-                          <span className="text-primary mt-0.5">›</span>
-                          <span>{q}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
+          <div className="card-soft max-w-2xl">
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+              A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
+            </p>
+            <a
+              href="/publications/program-development-canvas.docx"
+              download
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+            >
+              <FileText size={16} />
+              Download Canvas (Word)
+            </a>
+          </div>
         </div>
       </section>
     </Layout>
