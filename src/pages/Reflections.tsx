@@ -47,105 +47,7 @@ const whitepapers = [
   },
 ];
 
-const analysisCanvas = {
-  title: "Program Development Canvas — Analysis",
-  subtitle: "What questions can we ask to gather all relevant information before starting to design a learning intervention?",
-  sections: [
-    {
-      title: "Content of the issue",
-      color: "bg-primary/10 border-primary/20",
-      questions: [
-        "What content should be included in the solution?",
-        "What content works or doesn't work in this context?",
-        "What should participants know, be able to do, and how should they do it?",
-        "Which competencies are involved?",
-        "What attitude or mindset is important?",
-      ],
-    },
-    {
-      title: "Problem situation",
-      color: "bg-primary/10 border-primary/20",
-      questions: [
-        "What is the current situation?",
-        "What exactly is the problem?",
-        "For whom is this a problem?",
-        "What do you think is the real problem?",
-        "Does the problem have multiple causes?",
-        "Since when has this been a problem?",
-        "What happens if we do nothing?",
-      ],
-    },
-    {
-      title: "Motivation & needs of participants",
-      color: "bg-accent/30 border-accent/40",
-      questions: [
-        "What motivates the participants?",
-        "How involved do they feel with the problem?",
-        "Is there resistance?",
-        "What do participants need in order to learn?",
-        "What would make participants say: yes, I want that!",
-      ],
-    },
-    {
-      title: "Stakeholder analysis",
-      color: "bg-accent/30 border-accent/40",
-      questions: [
-        "Who is involved in the issue?",
-        "What are their perspectives and interests?",
-        "What do they expect from a solution?",
-        "Who can influence the process?",
-        "Where might resistance arise?",
-      ],
-    },
-  ],
-};
 
-const executionCanvas = {
-  title: "Program Development Canvas — Design & Execution",
-  subtitle: "What questions help shape the learning intervention, aligned with the organisation, the client and the participants?",
-  sections: [
-    {
-      title: "Images of client & advisor",
-      color: "bg-primary/10 border-primary/20",
-      questions: [
-        "What are the solution preferences of the client and advisor?",
-        "Which solutions have been tried before?",
-        "What ideas come to mind immediately?",
-        "What approach might work?",
-      ],
-    },
-    {
-      title: "Desired outcome",
-      color: "bg-primary/10 border-primary/20",
-      questions: [
-        "What is the desired outcome?",
-        "What does success look like?",
-        "When should the outcome be achieved?",
-        "How do we measure whether the outcome has been achieved?",
-      ],
-    },
-    {
-      title: "Differences in how participants learn",
-      color: "bg-accent/30 border-accent/40",
-      questions: [
-        "Who is the target group?",
-        "What learning styles or preferences play a role?",
-        "How do participants learn best?",
-        "How can differences be leveraged in the design?",
-      ],
-    },
-    {
-      title: "Fit with organisational strategy",
-      color: "bg-accent/30 border-accent/40",
-      questions: [
-        "What is the link to the mission, vision and goals?",
-        "How does this issue relate to organisational objectives?",
-        "How does the solution contribute to client value?",
-        "Which other departments are involved?",
-      ],
-    },
-  ],
-};
 
 const Reflections = () => {
   const [downloadModal, setDownloadModal] = useState<{ title: string } | null>(null);
@@ -307,7 +209,7 @@ const Reflections = () => {
         </div>
       </section>
 
-      {/* Practical L&D Tools — Two Canvases */}
+      {/* Practical L&D Tools */}
       <section id="tools" className="section-padding">
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-4">
@@ -318,29 +220,20 @@ const Reflections = () => {
             Kurt Lewin said: <em>"There is nothing as practical as a good theory."</em> That's why I love to use evidence-based material in my work. These two canvases, for instance, are based on the eight learning perspectives described by Dutch learning professor Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
 
-          {[analysisCanvas, executionCanvas].map((canvas, ci) => (
-            <div key={ci} className="mb-16 last:mb-0">
-              <div className="card-soft mb-6">
-                <h3 className="text-xl md:text-2xl font-serif mb-2">{canvas.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{canvas.subtitle}</p>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {canvas.sections.map((section, si) => (
-                  <div key={si} className={`rounded-lg border p-5 ${section.color}`}>
-                    <h4 className="font-serif text-base md:text-lg font-medium mb-3">{section.title}</h4>
-                    <ul className="space-y-1.5">
-                      {section.questions.map((q, qi) => (
-                        <li key={qi} className="text-muted-foreground text-sm leading-relaxed flex gap-2">
-                          <span className="text-primary mt-0.5">›</span>
-                          <span>{q}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
+          <div className="card-soft max-w-2xl">
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+              A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
+            </p>
+            <a
+              href="/publications/program-development-canvas.docx"
+              download
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+            >
+              <FileText size={16} />
+              Download Canvas (Word)
+            </a>
+          </div>
         </div>
       </section>
     </Layout>
