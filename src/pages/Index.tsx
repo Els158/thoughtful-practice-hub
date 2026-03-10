@@ -21,23 +21,6 @@ const workAreas = [
 }];
 
 
-const projects = [
-{
-  context: "",
-  approach: "",
-  outcome: ""
-},
-{
-  context: "",
-  approach: "",
-  outcome: ""
-},
-{
-  context: "",
-  approach: "",
-  outcome: ""
-}];
-
 
 const Index = () => {
   return (
