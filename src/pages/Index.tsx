@@ -23,19 +23,19 @@ const workAreas = [
 
 const projects = [
 {
-  context: "A growing technology company needed to develop its first leadership program for new managers.",
-  approach: "Co-designed a six-month learning journey combining reflection, peer learning and practical assignments.",
-  outcome: "Forty managers completed the program, creating a shared leadership language across the organisation."
+  context: "",
+  approach: "",
+  outcome: ""
 },
 {
-  context: "An international organisation sought to redesign its internal academy for professional development.",
-  approach: "Mapped existing learning needs, redesigned the curriculum and introduced blended learning formats.",
-  outcome: "A sustainable academy structure that the internal team could maintain and evolve independently."
+  context: "",
+  approach: "",
+  outcome: ""
 },
 {
-  context: "A team in transition needed support navigating organisational change while maintaining performance.",
-  approach: "Facilitated reflection sessions and helped the team develop new ways of working together.",
-  outcome: "The team found clarity in their roles and built resilience for the changes ahead."
+  context: "",
+  approach: "",
+  outcome: ""
 }];
 
 
