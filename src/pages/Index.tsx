@@ -3,41 +3,41 @@ import Layout from "@/components/Layout";
 import heroDunes from "@/assets/hero-dunes.jpg";
 
 const workAreas = [
-  {
-    title: "Leadership Development",
-    description: "Design and facilitation of leadership programs where leaders learn through reflection and practice.",
-  },
-  {
-    title: "Learning Programs & Academies",
-    description: "Design and management of learning journeys for professionals at every stage of their career.",
-  },
-  {
-    title: "Organisational Development",
-    description: "Supporting organisations and teams in moments of transition, growth or change.",
-  },
-  {
-    title: "Learning Communities",
-    description: "Creating spaces where professionals learn with and from each other across boundaries.",
-  },
-];
+{
+  title: "Leadership Development",
+  description: "Design and facilitation of leadership programs where leaders learn through reflection and practice."
+},
+{
+  title: "Learning Programs & Academies",
+  description: "Design and management of learning journeys for professionals at every stage of their career."
+},
+{
+  title: "Organisational Development",
+  description: "Supporting organisations and teams in moments of transition, growth or change."
+},
+{
+  title: "Learning Communities",
+  description: "Creating spaces where professionals learn with and from each other across boundaries."
+}];
+
 
 const projects = [
-  {
-    context: "A growing technology company needed to develop its first leadership program for new managers.",
-    approach: "Co-designed a six-month learning journey combining reflection, peer learning and practical assignments.",
-    outcome: "Forty managers completed the program, creating a shared leadership language across the organisation.",
-  },
-  {
-    context: "An international organisation sought to redesign its internal academy for professional development.",
-    approach: "Mapped existing learning needs, redesigned the curriculum and introduced blended learning formats.",
-    outcome: "A sustainable academy structure that the internal team could maintain and evolve independently.",
-  },
-  {
-    context: "A team in transition needed support navigating organisational change while maintaining performance.",
-    approach: "Facilitated reflection sessions and helped the team develop new ways of working together.",
-    outcome: "The team found clarity in their roles and built resilience for the changes ahead.",
-  },
-];
+{
+  context: "A growing technology company needed to develop its first leadership program for new managers.",
+  approach: "Co-designed a six-month learning journey combining reflection, peer learning and practical assignments.",
+  outcome: "Forty managers completed the program, creating a shared leadership language across the organisation."
+},
+{
+  context: "An international organisation sought to redesign its internal academy for professional development.",
+  approach: "Mapped existing learning needs, redesigned the curriculum and introduced blended learning formats.",
+  outcome: "A sustainable academy structure that the internal team could maintain and evolve independently."
+},
+{
+  context: "A team in transition needed support navigating organisational change while maintaining performance.",
+  approach: "Facilitated reflection sessions and helped the team develop new ways of working together.",
+  outcome: "The team found clarity in their roles and built resilience for the changes ahead."
+}];
+
 
 const Index = () => {
   return (
@@ -48,24 +48,24 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-8">
               <div>
-                <p className="text-label mb-3">Learning · Leadership · Development</p>
+                <p className="text-label mb-3">​fractional people & culture leadership        </p>
                 <h1 className="text-foreground">
                   Bringing development into the heart of organisations.
                 </h1>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Strategic when necessary and hands-on where needed. I work alongside organisations on learning and development programmes, from the first idea through design and facilitation.
+                Strategic when necessary and hands-on where needed. I work alongside organisations to address the people side of change - a hard skill, not a soft one.  
               </p>
               <Link to="/contact" className="btn-primary">
-                Schedule a conversation
+                 Let's connect
               </Link>
             </div>
             <div className="order-first md:order-last">
               <img
                 src={heroDunes}
                 alt="Dune landscape at golden hour"
-                className="w-full h-80 md:h-[28rem] object-cover rounded-lg"
-              />
+                className="w-full h-80 md:h-[28rem] object-cover rounded-lg" />
+              
             </div>
           </div>
         </div>
@@ -77,12 +77,12 @@ const Index = () => {
           <p className="text-label mb-4">What I work on</p>
           <h2 className="mb-12 md:mb-16">Areas of practice</h2>
           <div className="grid sm:grid-cols-2 gap-6">
-            {workAreas.map((area) => (
-              <div key={area.title} className="card-soft">
+            {workAreas.map((area) =>
+            <div key={area.title} className="card-soft">
                 <h3 className="mb-4">{area.title}</h3>
                 <p className="text-muted-foreground">{area.description}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -93,10 +93,10 @@ const Index = () => {
           <p className="text-label mb-4">How I work</p>
           <h2 className="mb-8">Collaborative by nature</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            I work alongside organisations as a partner — designing learning processes, facilitating conversations and adapting as the work unfolds. Every engagement starts with listening and understanding the context before shaping an approach together.
+            ​With a strong professional track record as CHRO and management consultant, I work strategically when needed and hands-on where it makes a difference. I work alongside leaders and teams, helping organisations address the people questions that matter most.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            The best results come from combining structure with space for reflection, allowing people and organisations to learn at their own pace.
+            ​Team members and former clients often value my pragmatism, humour and ability to connect.
           </p>
         </div>
       </section>
@@ -104,25 +104,25 @@ const Index = () => {
       {/* Selected practice */}
       <section className="section-padding bg-secondary">
         <div className="container-wide">
-          <p className="text-label mb-4">Selected practice</p>
-          <h2 className="mb-12 md:mb-16">Recent projects</h2>
+          <p className="text-label mb-4">​</p>
+          <h2 className="mb-12 md:mb-16">​</h2>
           <div className="space-y-8">
-            {projects.map((p, i) => (
-              <div key={i} className="card-soft grid md:grid-cols-3 gap-6">
+            {projects.map((p, i) =>
+            <div key={i} className="card-soft grid md:grid-cols-3 gap-6">
                 <div>
-                  <p className="text-label mb-2">Context</p>
+                  <p className="text-label mb-2">​</p>
                   <p className="text-muted-foreground text-sm">{p.context}</p>
                 </div>
                 <div>
-                  <p className="text-label mb-2">Approach</p>
+                  <p className="text-label mb-2">​</p>
                   <p className="text-muted-foreground text-sm">{p.approach}</p>
                 </div>
                 <div>
-                  <p className="text-label mb-2">Outcome</p>
+                  <p className="text-label mb-2">​</p>
                   <p className="text-muted-foreground text-sm">{p.outcome}</p>
                 </div>
               </div>
-            ))}
+            )}
           </div>
           <div className="mt-10">
             <Link to="/reflections" className="btn-outline">Explore reflections & tools</Link>
@@ -136,7 +136,7 @@ const Index = () => {
           <p className="text-label mb-4">About</p>
           <h2 className="mb-8 mx-auto">Els Oosthoek</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mx-auto mb-8">
-            With over twenty years of experience bringing development into the heart of organisations, I focus on tailor-made leadership development programmes — combining experience, creativity and the ability to connect people and ideas.
+            Want to get to know me?   
           </p>
           <Link to="/about" className="btn-outline">Read more</Link>
         </div>
@@ -152,8 +152,8 @@ const Index = () => {
           <Link to="/contact" className="btn-primary">Get in touch</Link>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>);
+
 };
 
 export default Index;
