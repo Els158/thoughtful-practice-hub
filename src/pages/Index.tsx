@@ -102,46 +102,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Selected practice */}
-      <section className="section-padding bg-secondary">
-        <div className="container-wide">
-          <p className="text-label mb-4">​</p>
-          <h2 className="mb-12 md:mb-16">​</h2>
-          <div className="space-y-8">
-            {projects.map((p, i) =>
-            <div key={i} className="card-soft grid md:grid-cols-3 gap-6">
-                <div>
-                  <p className="text-label mb-2">​</p>
-                  <p className="text-muted-foreground text-sm">{p.context}</p>
-                </div>
-                <div>
-                  <p className="text-label mb-2">​</p>
-                  <p className="text-muted-foreground text-sm">{p.approach}</p>
-                </div>
-                <div>
-                  <p className="text-label mb-2">​</p>
-                  <p className="text-muted-foreground text-sm">{p.outcome}</p>
-                </div>
-              </div>
-            )}
-          </div>
-          <div className="mt-10">
-            <Link to="/reflections" className="btn-outline">Explore reflections & tools</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* About preview */}
-      <section className="section-padding">
-        <div className="container-narrow text-center">
-          <p className="text-label mb-4">About</p>
-          <h2 className="mb-8 mx-auto">Els Oosthoek</h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mx-auto mb-8">
-            Want to get to know me?   
-          </p>
-          <Link to="/about" className="btn-outline">Read more</Link>
-        </div>
-      </section>
 
       {/* Contact CTA */}
       <section className="section-padding bg-secondary">
