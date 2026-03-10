@@ -4,12 +4,12 @@ import heroDunes from "@/assets/hero-dunes.jpg";
 
 const workAreas = [
 {
-  title: "Leadership Development",
-  description: "Design and facilitation of leadership programs where leaders learn through reflection and practice."
+  title: "Fractional People & Culture Leadership",
+  description: "Providing senior HR leadership and helping organisations align their people strategy with business growth."
 },
 {
-  title: "Learning Programs & Academies",
-  description: "Design and management of learning journeys for professionals at every stage of their career."
+  title: "HR team mentoring",
+  description: "Supporting HR professionals in their professional growth while strengthening their impact as business partners."
 },
 {
   title: "Organisational Development",
