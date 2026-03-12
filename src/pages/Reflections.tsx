@@ -37,12 +37,12 @@ const whitepapers = [
   language: "Dutch"
 },
 {
-  title: "Hoe ontwikkel je een leerplatform",
+  title: "Walking into the Fog",
   description:
-  "A practical guide on how to develop a learning platform within organisations — from vision and design to implementation and adoption.",
+  "Based on a 2023 episode of the Dutch HR Top 100 Podcast, this short essay reflects on the future of healthcare work and the change skills professionals will need.",
   type: "Whitepaper",
-  pdfUrl: "/publications/hoe-ontwikkel-je-een-leerplatform.pdf",
-  language: "Dutch"
+  pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
+  language: "English"
 }];
 
 
