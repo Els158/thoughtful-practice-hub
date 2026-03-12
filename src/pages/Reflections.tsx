@@ -197,7 +197,7 @@ const Reflections = () => {
             <h2 className="text-2xl md:text-3xl"> Learning Canvases  </h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Kurt Lewin said: <em>"There is nothing as practical as a good theory."</em> That's why I love to use evidence-based material in my work. These two canvases, for instance, are based on the eight learning perspectives described by Dutch learning professor Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
+            Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program Development Canvas, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
 
           <div className="card-soft max-w-2xl">
