@@ -6,7 +6,7 @@ const Footer = () =>
       <div>
         <p className="font-serif text-lg text-foreground">Els Oosthoek</p>
         <p className="text-sm text-muted-foreground mt-1">
-          ​Fractional People & Culture Director         
+          Gentle change. Disruptive learning.               
         </p>
       </div>
       <div className="flex gap-8 text-sm text-muted-foreground">
