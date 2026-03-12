@@ -29,9 +29,9 @@ const whitepapers = [
   language: "Dutch"
 },
 {
-  title: "Els Oosthoek — HRtop100 Podcast",
+  title: "Els Oosthoek — HR Top 100 Podcast",
   description:
-  "A conversation about the future of organisational development in healthcare, recorded for the HRtop100 podcast series. Els shares her perspective as Manager Organisatie & Ontwikkeling at Topaz on navigating change when the present is already demanding.",
+  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
   language: "Dutch"
