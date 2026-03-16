@@ -31,7 +31,9 @@ const NlIndex = () => {
               <div>
                 <p className="text-label mb-3">fractional people & culture leadership</p>
                 <h1 className="text-foreground">
-                  Bringing development into the heart of organisations.
+                  Ontwikkeling in 
+het hart van je organisatie.
+                
                 </h1>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
@@ -42,9 +44,7 @@ const NlIndex = () => {
               </Link>
             </div>
             <div className="order-first md:order-last">
-              <img
-                src={heroDunes}
-                alt="Dune landscape at golden hour"
+              <img src={heroDunes} alt="Dune landscape at golden hour"
                 className="w-full h-80 md:h-[28rem] object-cover rounded-lg" />
             </div>
           </div>
