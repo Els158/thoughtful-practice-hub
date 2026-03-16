@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Reflections from "./pages/Reflections";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import NlPlaceholder from "./pages/NlPlaceholder";
 
 const queryClient = new QueryClient();
 
