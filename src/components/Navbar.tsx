@@ -13,6 +13,7 @@ const links = [
 const Navbar = () => {
   const location = useLocation();
   const [open, setOpen] = useState(false);
+  const isNl = location.pathname.startsWith("/nl");
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm">
@@ -21,7 +22,7 @@ const Navbar = () => {
           Els Oosthoek
         </Link>
 
-        {/* Desktop */}
+        {/* Desktop nav + lang switcher */}
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (
             <Link
@@ -36,16 +37,20 @@ const Navbar = () => {
               {l.label}
             </Link>
           ))}
+          <LanguageToggle isNl={isNl} />
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          className="md:hidden text-foreground"
-          onClick={() => setOpen(!open)}
-          aria-label="Menu"
-        >
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* Mobile: lang switcher + hamburger */}
+        <div className="flex md:hidden items-center gap-4">
+          <LanguageToggle isNl={isNl} />
+          <button
+            className="text-foreground"
+            onClick={() => setOpen(!open)}
+            aria-label="Menu"
+          >
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
@@ -70,5 +75,27 @@ const Navbar = () => {
     </nav>
   );
 };
+
+const LanguageToggle = ({ isNl }: { isNl: boolean }) => (
+  <div className="flex items-center gap-1 text-xs tracking-widest font-sans">
+    <Link
+      to="/"
+      className={`transition-colors duration-200 ${
+        !isNl ? "text-foreground font-medium" : "text-muted-foreground hover:text-foreground"
+      }`}
+    >
+      EN
+    </Link>
+    <span className="text-border">/</span>
+    <Link
+      to="/nl"
+      className={`transition-colors duration-200 ${
+        isNl ? "text-foreground font-medium" : "text-muted-foreground hover:text-foreground"
+      }`}
+    >
+      NL
+    </Link>
+  </div>
+);
 
 export default Navbar;
