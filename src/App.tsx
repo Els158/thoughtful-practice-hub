@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Reflections from "./pages/Reflections";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import NlPlaceholder from "./pages/NlPlaceholder";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/reflections" element={<Reflections />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/nl" element={<NlPlaceholder />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
