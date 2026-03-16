@@ -55,7 +55,7 @@ const NlIndex = () => {
       <section className="section-padding bg-secondary">
         <div className="container-wide">
           <p className="text-label mb-4">Waar ik aan werk        </p>
-          <h2 className="mb-12 md:mb-16">Areas of practice</h2>
+          <h2 className="mb-12 md:mb-16">​Onderwerpen  </h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {workAreas.map((area) =>
             <div key={area.title} className="card-soft">
