@@ -31,13 +31,13 @@ const NlIndex = () => {
               <div>
                 <p className="text-label mb-3">fractional people & culture leadership</p>
                 <h1 className="text-foreground">
-                  Ontwikkeling in het       hart van je organisatie.
+                  Ontwikkeling in het  hart van je organisatie.
                 
                 
                 </h1>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Strategic when necessary and hands-on where needed. I work alongside organisations to address the people side of change - a hard skill, not a soft one.
+                Strategisch waar nodig, praktisch waar het kan. ​Mijn werk in organisaties gaat over wat mensen in beweging brengt. Geen soft skill, maar een vak op zich.                         
               </p>
               <Link to="/nl/contact" className="btn-primary">
                  Let's connect
@@ -54,7 +54,7 @@ const NlIndex = () => {
       {/* What I work on */}
       <section className="section-padding bg-secondary">
         <div className="container-wide">
-          <p className="text-label mb-4">What I work on</p>
+          <p className="text-label mb-4">Waar ik aan werk        </p>
           <h2 className="mb-12 md:mb-16">Areas of practice</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {workAreas.map((area) =>
