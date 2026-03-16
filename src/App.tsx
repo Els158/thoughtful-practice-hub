@@ -9,7 +9,11 @@ import About from "./pages/About";
 import Reflections from "./pages/Reflections";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import NlPlaceholder from "./pages/NlPlaceholder";
+import NlIndex from "./pages/nl/Index";
+import NlWorkingTogether from "./pages/nl/WorkingTogether";
+import NlAbout from "./pages/nl/About";
+import NlReflections from "./pages/nl/Reflections";
+import NlContact from "./pages/nl/Contact";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +29,11 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/reflections" element={<Reflections />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/nl" element={<NlPlaceholder />} />
+          <Route path="/nl" element={<NlIndex />} />
+          <Route path="/nl/working-together" element={<NlWorkingTogether />} />
+          <Route path="/nl/about" element={<NlAbout />} />
+          <Route path="/nl/reflections" element={<NlReflections />} />
+          <Route path="/nl/contact" element={<NlContact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
