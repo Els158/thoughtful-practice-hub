@@ -3,10 +3,10 @@ import Layout from "@/components/Layout";
 
 const services = [
 {
-  label: "Strategic Advisory",
-  title: "Thinking alongside you",
+  label: "Strategisch advies",
+  title: "Kritische vriend",
   description:
-  "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity."
+  "Actief bijdragen als kennispartner aan vraagstukken rond leiderschap, leren en organisatieontwikkeling. Van het vormgeven van een leerstrategie tot het adviseren over talentontwikkeling of het begeleiden van leiders in complexe situaties."
 },
 {
   label: "Program Design",
