@@ -13,7 +13,7 @@ const enLinks = [
 const nlLinks = [
   { to: "/nl", label: "Home" },
   { to: "/nl/working-together", label: "Samenwerken" },
-  { to: "/nl/about", label: "About" },
+  { to: "/nl/about", label: "Over mij" },
   { to: "/nl/reflections", label: "Inspiratie & tools" },
   { to: "/nl/contact", label: "Contact" },
 ];
