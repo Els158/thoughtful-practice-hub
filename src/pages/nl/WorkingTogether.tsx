@@ -35,13 +35,13 @@ const NlWorkingTogether = () =>
         <p className="text-label mb-4">​Samenwerken </p>
         <h1 className="mb-8">​Hoe we kunnen samenwerken       </h1>
         <p className="text-muted-foreground text-lg leading-relaxed mb-16">
-          ​HR-vraagstukken zijn er in alle vormen en maten.
-We kunnen op verschillende manieren samenwerken, afhankelijk van wat er nodig is. Hieronder een greep uit mijn werk.
-Ik werk graag mee aan vraagstukken die ertoe doen.
+          ​HR vraagstukken zijn er in alle vormen en maten. We kunnen op verschillende manieren samenwerken, afhankelijk van wat er nodig is. Hieronder een greep uit mijn werk. Ik werk graag mee aan vraagstukken die ertoe doen.
         
       
 
       
+      
+
       </p>
       </div>
     </section>
