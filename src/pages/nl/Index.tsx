@@ -4,20 +4,20 @@ import heroDunes from "@/assets/hero-dunes.jpg";
 
 const workAreas = [
 {
-  title: "Fractional People & Culture Leadership",
-  description: "Providing senior HR leadership and helping organisations align their people strategy with business growth."
+  title: "Interim HR management & ontwikkeling",
+  description: "Tijdelijke inzet op senior niveau. Verankering van groei en organisatieontwikkeling in de dagelijkse praktijk."
 },
 {
-  title: "HR team mentoring",
-  description: "Supporting HR professionals in their professional growth while strengthening their impact as business partners."
+  title: "Mentoring van HR teams",
+  description: "Begeleiding van HR professionals in hun ontwikkeling, met een focus op advies vaardigheden en projectmanagement skills. "
 },
 {
-  title: "Organisational Development",
-  description: "Supporting organisations and teams in moments of transition, growth or change."
+  title: "Organisatieontwikkeling",
+  description: "Ondersteuning van organisaties en teams in periodes van verandering, groei of heroriëntatie."
 },
 {
-  title: "Learning Communities",
-  description: "Creating spaces where professionals learn with and from each other across boundaries."
+  title: "Leergemeenschappen",
+  description: "Bevorderen van professionele leernetwerken, zodat teams en organisaties leren en ontwikkelen in het ritme van het werk."
 }];
 
 const NlIndex = () => {
