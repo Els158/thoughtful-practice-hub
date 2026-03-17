@@ -78,7 +78,7 @@ const NlIndex = () => {
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
             ​Vaak werk ik aan opgaven met een kleine groep, waarin vertrouwen en tegenspraak naast elkaar kunnen bestaan. Zo wordt spanning niet vermeden, maar ingezet als bron van inzicht
           </p>
-          <Link to="/nl/reflections" className="btn-outline">Explore reflections & tools</Link>
+          <Link to="/nl/reflections" className="btn-outline">​Ga naar inspiratie & tools      </Link>
         </div>
       </section>
 
