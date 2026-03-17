@@ -82,7 +82,7 @@ Over the years, I have developed a strong craft in working in that space. Throug
           
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            Team members and former clients often value my pragmatism, humour and ability to connect.
+            I often work on complex challenges with a small group, where trust and constructive challenge can coexist. In this way, tension is not avoided, but used as a source of insight.
           </p>
           <Link to="/reflections" className="btn-outline">Explore reflections & tools</Link>
         </div>
