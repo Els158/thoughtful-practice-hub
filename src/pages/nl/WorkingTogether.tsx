@@ -9,10 +9,10 @@ const services = [
   "Actief bijdragen als kennispartner aan vraagstukken rond leiderschap, leren en organisatieontwikkeling. Van het vormgeven van een leerstrategie tot het adviseren over talentontwikkeling of het begeleiden van leiders in complexe situaties."
 },
 {
-  label: "Ontwerp",
+  label: "Ontwerp & uitvoering",
   title: "Leeroplossingen die echt werken",
   description:
-  "Programma management van leertrajecten voor leiders en professionals, met een goeie mix van theorie en praktijk, reflectie en actie. Laat pas los als het af is; van co-creatie en ontwerp tot inkoop en borging in de organisatie."
+  "Leiden en vormgeven van leertrajecten voor leiders en professionals, met een doordachte mix van theorie en praktijk. Ik breng structuur, strategische samenhang en een diep begrip van hoe mensen leren. Ik leid trajecten stapsgewijs van visie naar impact in de organisatie."
 },
 {
   label: "Program Leadership",
