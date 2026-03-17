@@ -76,7 +76,10 @@ const Index = () => {
           <p className="text-label mb-4">How I work</p>
           <h2 className="mb-8">Collaborative by nature</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            With a strong professional track record as CHRO and management consultant, I work strategically when needed and hands-on where it makes a difference. I work alongside leaders and teams, helping organisations address the people questions that matter most.
+            ​Collaboration happens in the space in between. In how conversations unfold, how decisions are prepared, and how words are chosen.
+Over the years, I have developed a strong craft in working in that space. Through my approach, I bring different perspectives together, creating room for solutions that are supported in practice.
+          
+          
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
             Team members and former clients often value my pragmatism, humour and ability to connect.
@@ -96,8 +99,5 @@ const Index = () => {
           <Link to="/contact" className="btn-primary">Get in touch</Link>
         </div>
       </section>
-    </Layout>);
-
-};
-
+    </Layout>);};
 export default Index;
