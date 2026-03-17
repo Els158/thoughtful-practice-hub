@@ -14,7 +14,7 @@ const nlLinks = [
   { to: "/nl", label: "Home" },
   { to: "/nl/working-together", label: "Working Together" },
   { to: "/nl/about", label: "About" },
-  { to: "/nl/reflections", label: "Reflections & Inspiration" },
+  { to: "/nl/reflections", label: "Inspiratie & tools" },
   { to: "/nl/contact", label: "Contact" },
 ];
 
