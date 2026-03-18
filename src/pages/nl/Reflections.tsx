@@ -124,7 +124,7 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Every now and then, something catches my attention - a conversation, an image, a moment in the kitchen - and it turns into a reflection on work, leadership or organisational life. My writing often starts somewhere unexpected, before finding its way to what matters in organisations.
+              Soms valt mij iets op - een gesprek, een beeld, een moment in de keuken - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               These reflections live on LinkedIn, where they tend to spark the kind of conversations I value most: honest, curious and sometimes a little uncomfortable.
