@@ -124,16 +124,16 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Soms valt mij iets op - een gesprek, een beeld, een moment in de keuken - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
+              Reflecties
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              These reflections live on LinkedIn, where they tend to spark the kind of conversations I value most: honest, curious and sometimes a little uncomfortable.
+              Publicaties
             </p>
             <a
               href="https://www.linkedin.com/in/elsoosthoek/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">​Tools 
               <Linkedin size={16} />
               Follow my reflections on LinkedIn
             </a>
