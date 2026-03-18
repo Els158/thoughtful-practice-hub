@@ -85,11 +85,11 @@ const NlIndex = () => {
       {/* Contact CTA */}
       <section className="section-padding bg-secondary">
         <div className="container-narrow text-center">
-          <h2 className="mb-6">Let's start a conversation</h2>
+          <h2 className="mb-6">Laten we kennismaken</h2>
           <p className="text-muted-foreground text-lg mx-auto mb-8">
-            If you would like to explore whether I can contribute to your work or organisation, I would be glad to hear from you.
+            Benieuwd of ik wat voor je kan betekenen? Stel gerust je vraag.
           </p>
-          <Link to="/nl/contact" className="btn-primary">Get in touch</Link>
+          <Link to="/nl/contact" className="btn-primary">Plan een afspraak</Link>
         </div>
       </section>
     </Layout>);
