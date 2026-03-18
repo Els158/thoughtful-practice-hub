@@ -97,7 +97,7 @@ const NlReflections = () => {
 
       <section className="pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="container-narrow">
-          <p className="text-label mb-4">Inspiratie & Tools</p>
+          <p className="text-label mb-4">Reflections & Inspiration</p>
           <h1>Ideas from practice</h1>
         </div>
       </section>
@@ -124,7 +124,7 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Soms valt mij iets op - een gesprek, een beeld, een moment in de keuken - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
+              Reflecties
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Publicaties
@@ -145,7 +145,7 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-10">
             <FileText size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">Publicaties</h2>
+            <h2 className="text-2xl md:text-3xl">​Met plezier schrijf ik hierover op LinkedIn, waar ze regelmatig leiden tot gesprekken die ik het meest waardeer: open, onderzoekend en soms een beetje ongemakkelijk.</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {whitepapers.map((w, i) =>
