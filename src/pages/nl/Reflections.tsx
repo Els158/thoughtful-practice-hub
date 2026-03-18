@@ -145,7 +145,7 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-10">
             <FileText size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">​​Met plezier schrijf ik hierover op LinkedIn, waar ze regelmatig leiden tot gesprekken die ik het meest waardeer: open, onderzoekend en soms een beetje ongemakkelijk.</h2>
+            <h2 className="text-2xl md:text-3xl">Publicaties</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {whitepapers.map((w, i) =>
