@@ -124,7 +124,7 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Reflecties
+              Soms valt mij iets op - een gesprek, een beeld, een moment in de keuken - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Publicaties
