@@ -34,7 +34,7 @@ const NlAbout = () =>
 
     <section className="section-padding">
       <div className="container-narrow">
-        <p className="text-label mb-4">Background</p>
+        <p className="text-label mb-4">​Doordat ik in organisaties en als adviseur heb gewerkt, vind ik snel mijn weg en word ik onderdeel van de context waarin ik werk. Ik heb daarbij op directie- en MT-niveau gewerkt en ken de vraagstukken die in verschillende delen van organisaties spelen. Ik verbind gemakkelijk mensen en perspectieven en breng samenhang waar dat nodig is.</p>
         <h2 className="mb-8">Professional life</h2>
         <p className="text-muted-foreground leading-relaxed mb-4">
           Based in Overveen, the Netherlands, I have built my career across consulting and in-house HR leadership roles. My education includes SIOO and Utrecht University.
