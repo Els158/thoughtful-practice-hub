@@ -15,6 +15,7 @@ const NlAbout = () =>
             <p className="text-muted-foreground leading-relaxed">
               Met een brede achtergrond als CHRO, coach en organisatieadviseur werk ik strategisch waar dat nodig is, en hands-on waar het verschil wordt gemaakt.
               <br />Complexe vraagstukken breng ik terug tot wat er echt toe doet. In mijn werk zorg ik ervoor dat organisaties verbeteren én professionals verder groeien.
+              <br /><br />Doordat ik in organisaties en als adviseur heb gewerkt, vind ik snel mijn weg en word ik onderdeel van de context waarin ik werk. Ik heb op directie- en MT-niveau gewerkt en begrijp de vraagstukken die in verschillende delen van organisaties spelen. Ik verbind gemakkelijk mensen en perspectieven en breng samenhang waar dat nodig is.
             </p>
           </div>
           <div className="md:col-span-2">
