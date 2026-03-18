@@ -29,13 +29,13 @@ const NlAbout = () =>
 
     <section className="section-padding">
       <div className="container-narrow">
-        <p className="text-label mb-4">​Doordat ik in organisaties en als adviseur heb gewerkt, vind ik snel mijn weg en word ik onderdeel van de context waarin ik werk. Ik heb daarbij op directie- en MT-niveau gewerkt en ken de vraagstukken die in verschillende delen van organisaties spelen. Ik verbind gemakkelijk mensen en perspectieven en breng samenhang waar dat nodig is.</p>
-        <h2 className="mb-8">Professional life</h2>
+        <p className="text-label mb-4">Achtergrond</p>
+        <h2 className="mb-8">Meer dan werk alleen</h2>
         <p className="text-muted-foreground leading-relaxed mb-4">
-          Based in Overveen, the Netherlands, I have built my career across consulting and in-house HR leadership roles. My education includes SIOO and Utrecht University.
+          Ik woon en werk in Overveen en heb mijn loopbaan opgebouwd in zowel consultancy als interne HR-leiderschapsrollen. Mijn opleiding volgde ik onder andere bij SIOO en de Universiteit Utrecht.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          ​I also contribute beyond my client work: as a member of the Advisory Board of the Bakery Institute, as a mentor for Stichting Anne-Bo, and as a jury member for the Ooa–Sioo Management Book of the Year.
+          Daarnaast ben ik actief als lid van de Raad van Advies van het Bakery Institute, als mentor bij Stichting Anne-Bo en als jurylid voor het Ooa–SIOO Managementboek van het Jaar.
         </p>
       </div>
     </section>
