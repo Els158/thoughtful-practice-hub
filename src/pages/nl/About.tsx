@@ -7,19 +7,14 @@ const NlAbout = () =>
       <div className="container-narrow">
         <div className="grid md:grid-cols-5 gap-12 md:gap-16">
           <div className="md:col-span-3 space-y-8">
-            <p className="text-label">About</p>
-            <h1>Making growth and progress possible</h1>
+            <p className="text-label">Over mij</p>
+            <h1>Ruimte voor groei</h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              As an HR leader – and as a mother – my life has always been about making growth and progress possible. For more than twenty years I have worked at the intersection of people, organisations and development.
+              Al meer dan 25 jaar breng ik ontwikkeling in het hart van organisaties.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              ​In the coming years, I am choosing to focus on the work that energises me most: helping organisations strengthen the people side of their business. I do this as a fractional People & Culture leader, able to make sound people decisions at speed while still guiding transformation. My contributions are strategic when necessary and hands-on where needed.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              ​In the teams I work with, I always try to move in two directions at once: supporting people's professional growth while contributing to the organisation's goals. People I have worked with often mention my organisational stamina, care and improvisational talent.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              ​Having worked both inside organisations and as a consultant, I find my way quickly and become part of the context I work in. As an entrepreneurial networker, I naturally connect people and perspectives.
+              Met een brede achtergrond als CHRO, coach en organisatieadviseur werk ik strategisch waar dat nodig is, en hands-on waar het verschil wordt gemaakt.
+              <br />Complexe vraagstukken breng ik terug tot wat er echt toe doet. In mijn werk zorg ik ervoor dat organisaties verbeteren én professionals verder groeien.
             </p>
           </div>
           <div className="md:col-span-2">
