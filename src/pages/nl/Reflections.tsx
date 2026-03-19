@@ -120,11 +120,11 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-10">
             <PenLine size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">Reflections</h2>
+            <h2 className="text-2xl md:text-3xl">Reflecties</h2>
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Reflecties
+              Soms valt mij iets op - een gesprek, een afbeelding, een moment op straat - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Publicaties
