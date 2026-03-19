@@ -36,7 +36,8 @@ const NlWorkingTogether = () =>
         <h1 className="mb-8">Slim samenwerken       </h1>
         <p className="text-muted-foreground text-lg leading-relaxed mb-16">
           ​Samenwerken gebeurt in de tussenruimte — in hoe gesprekken worden gevoerd, besluiten worden voorbereid en woorden worden gewogen. In die ruimte heb ik mijn vak ontwikkeld.
-          <br />Mijn aanpak brengt perspectieven samen, zodat oplossingen ontstaan die niet alleen bedacht, maar ook gedragen worden in de praktijk.
+          <br /><br />Mijn aanpak brengt perspectieven samen, zodat oplossingen ontstaan die niet alleen bedacht, maar ook gedragen worden in de praktijk. Vaak werk ik met een kleine groep, waarin vertrouwen en tegenspraak naast elkaar kunnen bestaan.
+          <br /><br />Spanning wordt daarbij niet vermeden, maar benut als bron van inzicht. Vanuit die manier van werken ontstaan verschillende vormen van samenwerking.
         </p>
       </div>
     </section>
