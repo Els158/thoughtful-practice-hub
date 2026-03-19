@@ -48,11 +48,11 @@ const NlWorkingTogether = () =>
 
     <section className="section-padding bg-secondary">
       <div className="container-narrow text-center">
-        <h2 className="mb-6">Interested in working together?</h2>
+        <h2 className="mb-6">Laten we kennismaken</h2>
         <p className="text-muted-foreground text-lg mx-auto mb-8">
-          I would be happy to explore how I can contribute to your organisation's learning and leadership goals.
+          Benieuwd of ik iets voor je kan betekenen? Stel gerust je vraag.
         </p>
-        <Link to="/nl/contact" className="btn-primary">Start a conversation</Link>
+        <Link to="/nl/contact" className="btn-primary">Plan een kennismaking in</Link>
       </div>
     </section>
   </Layout>;export default NlWorkingTogether;
