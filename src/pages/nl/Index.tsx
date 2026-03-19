@@ -67,20 +67,6 @@ const NlIndex = () => {
         </div>
       </section>
 
-      {/* How I work */}
-      <section className="section-padding">
-        <div className="container-narrow">
-          <p className="text-label mb-4">How I work</p>
-          <h2 className="mb-8">​Samenwerken als uitgangspunt      </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            ​Samenwerken gebeurt in de tussenruimte. In hoe gesprekken worden gevoerd, besluiten worden voorbereid en woorden worden gewogen. Door de jaren heen heb ik daar vakmanschap in ontwikkeld. Met mijn aanpak breng ik perspectieven samen, waardoor ruimte ontstaat voor oplossingen die gedragen worden in de praktijk.
-          </p>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            ​Vaak werk ik aan opgaven met een kleine groep, waarin vertrouwen en tegenspraak naast elkaar kunnen bestaan. Zo wordt spanning niet vermeden, maar ingezet als bron van inzicht
-          </p>
-          <Link to="/nl/reflections" className="btn-outline">​Ga naar inspiratie & tools      </Link>
-        </div>
-      </section>
 
       {/* Contact CTA */}
       <section className="section-padding bg-secondary">
