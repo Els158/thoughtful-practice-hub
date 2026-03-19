@@ -32,17 +32,12 @@ const NlWorkingTogether = () =>
 <Layout>
     <section className="section-padding">
       <div className="container-narrow">
-        <p className="text-label mb-4">​Samenwerken </p>
-        <h1 className="mb-8">​Hoe we kunnen samenwerken       </h1>
+        <p className="text-label mb-4">​Hoe ik werk</p>
+        <h1 className="mb-8">Slim samenwerken       </h1>
         <p className="text-muted-foreground text-lg leading-relaxed mb-16">
-          ​HR vraagstukken zijn er in alle vormen en maten. We kunnen op verschillende manieren samenwerken, afhankelijk van wat er nodig is. Hieronder een greep uit mijn werk. Ik werk graag mee aan vraagstukken die ertoe doen.
-        
-      
-
-      
-      
-
-      </p>
+          ​Samenwerken gebeurt in de tussenruimte — in hoe gesprekken worden gevoerd, besluiten worden voorbereid en woorden worden gewogen. In die ruimte heb ik mijn vak ontwikkeld.
+          <br />Mijn aanpak brengt perspectieven samen, zodat oplossingen ontstaan die niet alleen bedacht, maar ook gedragen worden in de praktijk.
+        </p>
       </div>
     </section>
 
