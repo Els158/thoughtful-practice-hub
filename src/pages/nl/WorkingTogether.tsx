@@ -3,28 +3,22 @@ import Layout from "@/components/Layout";
 
 const services = [
 {
-  label: "Strategisch advies",
-  title: "Kritische vriend",
+  label: "IN de organisatie",
+  title: "Interim management",
   description:
-  "Actief bijdragen als kennispartner aan vraagstukken rond leiderschap, leren en organisatieontwikkeling. Van het vormgeven van een leerstrategie tot het adviseren over talentontwikkeling of het begeleiden van leiders in complexe situaties."
+  "Verantwoordelijkheid voor HR opgaven van begin tot eind - van analyse en richting bepalen tot implementatie. Op directie- en MT-niveau ontstaat voortgang, scherpte in besluitvorming en zicht op wat er speelt."
 },
 {
-  label: "Ontwerp & uitvoering",
-  title: "Leeroplossingen die echt werken",
+  label: "IN ontwikkeling",
+  title: "Ontwerp en realisatie van leer- en ontwikkeltrajecten",
   description:
-  "Leiden en vormgeven van leertrajecten voor leiders en professionals, met een doordachte mix van theorie en praktijk. Ik breng structuur, strategische samenhang en een diep begrip van hoe mensen leren. Ik leid trajecten stapsgewijs van visie naar impact in de organisatie."
+  "Ik ontwikkel en realiseer leerinterventies die aansluiten bij de organisatie en daadwerkelijk effect hebben op gedrag en samenwerking. Van strategie tot uitvoering, met oog voor context en deelnemers."
 },
 {
-  label: "Program Leadership",
-  title: "Guiding learning programs from vision to impact",
+  label: "Als meedenker",
+  title: "Sparring & advies op senior niveau",
   description:
-  "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn."
-},
-{
-  label: "Facilitation & Reflection",
-  title: "Creating space for insight and growth",
-  description:
-  "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge."
+  "Sparring voor leiders en HR professionals die midden in complexe vraagstukken zitten. Ik help scherp te krijgen wat er speelt, breng verschillende perspectieven samen en denk mee in keuzes en interventies die werken in de praktijk."
 }];
 
 
