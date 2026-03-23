@@ -98,7 +98,7 @@ const NlReflections = () => {
       <section className="pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="container-narrow">
           <p className="text-label mb-4">Reflections & Inspiration</p>
-          <h1>Ideas from practice</h1>
+          <h1>Uit de praktijk</h1>
         </div>
       </section>
 
