@@ -11,19 +11,13 @@ const About = () =>
             <p className="text-label">About</p>
             <h1>Making growth and progress possible</h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              As an HR leader – and as a mother – my life has always been about making growth and progress possible. For more than twenty years I have worked at the intersection of people, organisations and development.
+              For more than 25 years, I have been bringing development into the heart of organisations.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              ​In the coming years, I am choosing to focus on the work that energises me most: helping organisations strengthen the people side of their business. I do this as a fractional People & Culture leader, able to make sound people decisions at speed while still guiding transformation. My contributions are strategic when necessary and hands-on where needed.
+              With a broad background as a CHRO, coach and organisational consultant, I work strategically where needed and hands-on where that is what makes the difference. I bring complex questions back to what truly matters. In my work, I help organisations improve while enabling professionals to grow.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              ​In the teams I work with, I always try to move in two directions at once: supporting people's professional growth while contributing to the organisation's goals. People I have worked with often mention my organisational stamina, care and improvisational talent.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              ​Having worked both inside organisations and as a consultant, I find my way quickly and become part of the context I work in. As an entrepreneurial networker, I naturally connect people and perspectives.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              ​
+              Because I have worked both within organisations and as a consultant, I find my way quickly and become part of the context in which I work. I have operated at board and senior management level and understand the questions that arise across different parts of organisations. I connect people and perspectives with ease, and bring coherence where it is needed.
             </p>
           </div>
           <div className="md:col-span-2">
