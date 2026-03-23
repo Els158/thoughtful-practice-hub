@@ -180,7 +180,7 @@ const NlReflections = () => {
             <h2 className="text-2xl md:text-3xl">Leercanvassen</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program Development Canvas, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
+            Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is het Programma Ontwikkel Canvas, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
           <div className="card-soft max-w-2xl">
             <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
