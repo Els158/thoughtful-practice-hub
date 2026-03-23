@@ -6,42 +6,42 @@ const whitepapers = [
 {
   title: "De positieve kracht van macht",
   description:
-  "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
-  type: "Article",
+  "Een verkenning van vier typen machtsdynamiek in organisaties, geanalyseerd aan de hand van een concrete casus uit leren en ontwikkelen. Geschreven samen met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
+  type: "Artikel",
   pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "Werk in transitie — Een HX benadering van organisatieontwerp",
   description:
-  "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
+  "Hoe kunnen organisaties werk ontwerpen dat mensen echt ondersteunt? Deze whitepaper verkent een Human Experience (HX)-benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende pijlers.",
   type: "Whitepaper",
   pdfUrl: "/publications/werk-in-transitie.pdf",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
   description:
-  "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
-  type: "Article",
+  "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben — en hoe onderwijs en praktijk die samen kunnen ontwikkelen. Gepubliceerd op Zorgonderwijsvernieuwers.",
+  type: "Artikel",
   pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "HR Top 100 Podcast",
   description:
-  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
+  "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcast-serie. Els deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering wanneer het heden al veeleisend is.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "Walking into the Fog",
   description:
-  "Based on a 2023 episode of the Dutch HR Top 100 Podcast, this short essay reflects on the future of healthcare work and the change skills professionals will need.",
+  "Gebaseerd op een aflevering uit 2023 van de HR Top 100 Podcast reflecteert dit korte essay op de toekomst van zorgwerk en de verandervaardigheden die professionals nodig zullen hebben.",
   type: "Whitepaper",
   pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
-  language: "English"
+  language: "Engels"
 }];
 
 const HubSpotForm = () => {
@@ -88,7 +88,7 @@ const NlReflections = () => {
             </button>
             <h3 className="text-xl font-serif mb-2">{downloadModal.title}</h3>
             <p className="text-muted-foreground text-sm mb-6">
-              Fill in your details to receive the download link.
+              Vul je gegevens in om de downloadlink te ontvangen.
             </p>
             <HubSpotForm />
           </div>
@@ -97,21 +97,21 @@ const NlReflections = () => {
 
       <section className="pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="container-narrow">
-          <p className="text-label mb-4">Reflections & Inspiration</p>
-          <h1>Ideas from practice</h1>
+          <p className="text-label mb-4">Reflecties & Inspiratie</p>
+          <h1>Ideeën uit de praktijk</h1>
         </div>
       </section>
 
       <section className="border-b border-border">
         <div className="container-wide flex gap-8 overflow-x-auto">
           <a href="#reflections" className="text-sm tracking-wide py-4 border-b-2 border-primary text-primary font-medium">
-            Reflections
+            Reflecties
           </a>
           <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            Publications
+            Publicaties
           </a>
           <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            ​Learning Canvases
+            ​Leercanvassen
           </a>
         </div>
       </section>
@@ -133,9 +133,9 @@ const NlReflections = () => {
               href="https://www.linkedin.com/in/elsoosthoek/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">​Tools  
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
               <Linkedin size={16} />
-              Follow my reflections on LinkedIn
+              Volg mijn reflecties op LinkedIn
             </a>
           </article>
         </div>
@@ -159,7 +159,7 @@ const NlReflections = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block">
-                    {w.type === 'Podcast' ? 'Listen to podcast' : w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
+                    {w.type === 'Podcast' ? 'Luister naar podcast' : w.pdfUrl.startsWith('http') ? 'Lees artikel' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
                   </a> :
               <p
                 onClick={() => handleDownloadClick(w.title)}
@@ -177,22 +177,22 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-4">
             <Wrench size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">Learning Canvases</h2>
+            <h2 className="text-2xl md:text-3xl">Leercanvassen</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program Development Canvas, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
+            Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is het Programma Ontwikkel Canvas, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
           <div className="card-soft max-w-2xl">
-            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Programma Ontwikkel Canvas</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
+              Een praktisch hulpmiddel met sturende vragen voor het analyseren, ontwerpen en uitvoeren van leerinterventies — van probleemanalyse en stakeholdermapping tot deelnemersbehoeften en organisatorische fit.
             </p>
             <a
               href="/publications/program-development-canvas.docx"
               download
               className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
               <FileText size={16} />
-              Download Canvas (Word)
+              Download canvas (Word)
             </a>
           </div>
         </div>
