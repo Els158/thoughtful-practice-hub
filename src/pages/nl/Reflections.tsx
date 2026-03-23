@@ -25,7 +25,7 @@ const whitepapers = [
   "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben — en hoe onderwijs en praktijk die samen kunnen ontwikkelen. Gepubliceerd op Zorgonderwijsvernieuwers.",
   type: "Artikel",
   pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "HR Top 100 Podcast",
