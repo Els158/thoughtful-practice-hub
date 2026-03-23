@@ -124,10 +124,10 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Reflecties
+              Af en toe trekt iets mijn aandacht — een gesprek, een beeld, een moment in de keuken — en dat wordt een reflectie over werk, leiderschap of het leven in organisaties. Mijn schrijven begint vaak op een onverwachte plek, voordat het zijn weg vindt naar wat er toe doet in organisaties.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Publicaties
+              Deze reflecties staan op LinkedIn, waar ze het soort gesprekken oproepen dat ik het meest waardeer: eerlijk, nieuwsgierig en soms een beetje ongemakkelijk.
             </p>
             <a
               href="https://www.linkedin.com/in/elsoosthoek/"
