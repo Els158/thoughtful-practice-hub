@@ -20,12 +20,7 @@ const services = [
   description:
   "Sparring for leaders and HR professionals navigating complex challenges. I help clarify what is really going on, bring together different perspectives, and think through choices and interventions that work in practice."
 },
-{
-  label: "Facilitation & Reflection",
-  title: "Creating space for insight and growth",
-  description:
-  "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge."
-}];
+];
 
 const WorkingTogether = () =>
 <Layout>
