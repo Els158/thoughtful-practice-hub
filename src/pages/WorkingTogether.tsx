@@ -2,27 +2,33 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 
 const services = [
-  {
-    label: "Strategic Advisory",
-    title: "Thinking alongside you",
-    description:
-      "Taking responsibility for HR challenges from start to finish - from analysis and setting direction through to implementation. At executive and senior management level, this brings progress, sharper decision-making and clear insight into what is really going on.",
-  },
-  {
-    label: "Program Leadership",
-    title: "Guiding learning programs from vision to impact",
-    description:
-      "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn.",
-  },
-  {
-    label: "Facilitation & Reflection",
-    title: "Senior level sparring & advisory",
-    description:
-      "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge.",
-  },
-];
-const WorkingTogether = () => (
-  <Layout>
+{
+  label: "Strategic Advisory",
+  title: "Thinking alongside you",
+  description:
+  "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity."
+},
+{
+  label: "Program Design",
+  title: "Designing learning journeys that resonate",
+  description:
+  "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation."
+},
+{
+  label: "Program Leadership",
+  title: "Guiding learning programs from vision to impact",
+  description:
+  "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn."
+},
+{
+  label: "Facilitation & Reflection",
+  title: "Creating space for insight and growth",
+  description:
+  "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge."
+}];
+
+const WorkingTogether = () =>
+<Layout>
     <section className="section-padding">
       <div className="container-narrow">
         <p className="text-label mb-4">Working Together</p>
@@ -37,13 +43,13 @@ const WorkingTogether = () => (
 
     <section className="pb-20 md:pb-28">
       <div className="container-wide space-y-10">
-        {services.map((s) => (
-          <div key={s.label} className="card-soft">
+        {services.map((s) =>
+      <div key={s.label} className="card-soft">
             <p className="text-label mb-3">{s.label}</p>
             <h2 className="text-2xl md:text-3xl mb-4">{s.title}</h2>
             <p className="text-muted-foreground leading-relaxed">{s.description}</p>
           </div>
-        ))}
+      )}
       </div>
     </section>
 
@@ -53,10 +59,10 @@ const WorkingTogether = () => (
         <p className="text-muted-foreground text-lg mx-auto mb-8">
           I would be happy to explore how I can contribute to your organisation's learning and leadership goals.
         </p>
-        <Link to="/contact" className="btn-primary">Start a conversation</Link>
+        <Link to="/contact" className="btn-primary">Senior level sparring & HR mentoring </Link>
       </div>
     </section>
-  </Layout>
-);
+  </Layout>;
+
 
 export default WorkingTogether;
