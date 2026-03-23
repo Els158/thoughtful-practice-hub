@@ -51,7 +51,7 @@ const WorkingTogether = () =>
     <section className="section-padding bg-secondary">
       <div className="container-narrow text-center">
         <h2 className="mb-6">Let's start a conversation</h2>
-        <Link to="/contact" className="btn-primary">HR mentoring</Link>
+        <Link to="/contact" className="btn-primary">Get in touch</Link>
       </div>
     </section>
   </Layout>;
