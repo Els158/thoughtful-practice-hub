@@ -16,7 +16,7 @@ const services = [
 },
 {
   label: "Executive Sparring",
-  title: "A partner in navigating complexity",
+  title: "HR mentoring",
   description:
   "Sparring for leaders and HR professionals navigating complex challenges. I help clarify what is really going on, bring together different perspectives, and think through choices and interventions that work in practice."
 },
