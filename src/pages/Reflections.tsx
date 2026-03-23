@@ -211,7 +211,7 @@ const Reflections = () => {
               className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
               
               <FileText size={16} />
-              Download Canvas (Word)
+              Download checklist (Word)
             </a>
           </div>
         </div>
