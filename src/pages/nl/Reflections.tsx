@@ -22,7 +22,7 @@ const whitepapers = [
 {
   title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
   description:
-  "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
+  "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben — en hoe onderwijs en praktijk die samen kunnen ontwikkelen.\nGepubliceerd op Zorgonderwijsvernieuwers.",
   type: "Article",
   pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
   language: "Dutch"
