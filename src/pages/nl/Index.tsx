@@ -75,7 +75,7 @@ const NlIndex = () => {
           <p className="text-muted-foreground text-lg mx-auto mb-8">
             Benieuwd of ik wat voor je kan betekenen? Stel gerust je vraag.
           </p>
-          <Link to="/nl/contact" className="btn-primary">​Werkwijze   </Link>
+          <Link to="/nl/contact" className="btn-primary">​Plan een afspraak  </Link>
         </div>
       </section>
     </Layout>);
