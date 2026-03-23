@@ -12,9 +12,9 @@ const whitepapers = [
   language: "Dutch"
 },
 {
-  title: "Werk in transitie ",
+  title: "Werk in transitie — Een HX benadering van organisatieontwerp",
   description:
-  "Hoe kunnen organisaties werk zo vormgeven dat het mensen echt ondersteunt? Deze whitepaper verkent een Human Experience (HX) benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende principes.",
+  "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
   type: "Whitepaper",
   pdfUrl: "/publications/werk-in-transitie.pdf",
   language: "Dutch"
@@ -22,7 +22,7 @@ const whitepapers = [
 {
   title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
   description:
-  "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben — en hoe onderwijs en praktijk die samen kunnen ontwikkelen.\nGepubliceerd op Zorgonderwijsvernieuwers.",
+  "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
   type: "Article",
   pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
   language: "Dutch"
@@ -30,7 +30,7 @@ const whitepapers = [
 {
   title: "HR Top 100 Podcast",
   description:
-  "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcastserie.\nEls deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering in een context waarin het heden al volop vraagt.",
+  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
   language: "Dutch"
@@ -38,7 +38,7 @@ const whitepapers = [
 {
   title: "Walking into the Fog",
   description:
-  "Engelstalig artikel, gebaseerd op de aflevering uit 2023 van de HR Top 100 Podcast. Kort essay over de toekomst van werken in de zorg en de veranderkundige vaardigheden die professionals daarvoor nodig hebben.",
+  "Based on a 2023 episode of the Dutch HR Top 100 Podcast, this short essay reflects on the future of healthcare work and the change skills professionals will need.",
   type: "Whitepaper",
   pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
   language: "English"
@@ -133,7 +133,7 @@ const NlReflections = () => {
               href="https://www.linkedin.com/in/elsoosthoek/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">​Tools 
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">​Tools  
               <Linkedin size={16} />
               Follow my reflections on LinkedIn
             </a>
@@ -152,7 +152,7 @@ const NlReflections = () => {
             <div key={i} className="card-soft flex flex-col">
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed flex-1 whitespace-pre-line">{w.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
                 {w.pdfUrl ?
               <a
                 href={w.pdfUrl}
