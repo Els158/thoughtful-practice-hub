@@ -201,7 +201,7 @@ const Reflections = () => {
           </p>
 
           <div className="card-soft max-w-2xl">
-            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Program development checklist</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
             </p>
