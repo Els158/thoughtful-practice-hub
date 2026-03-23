@@ -40,7 +40,7 @@ const NlIndex = () => {
                 Strategisch waar nodig, praktisch waar het kan. ​Mijn werk in organisaties gaat over wat mensen in beweging brengt. Geen soft skill, maar een vak op zich.                         
               </p>
               <Link to="/nl/contact" className="btn-primary">
-                 ​Ja,  laten we kennismaken      
+                Laten we kennismaken
               </Link>
             </div>
             <div className="order-first md:order-last">
