@@ -22,7 +22,7 @@ const services = [
   },
   {
     label: "Facilitation & Reflection",
-    title: "Creating space for insight and growth",
+    title: "Senior level sparring & advisory",
     description:
       "Leading sessions, conversations and reflection spaces for leaders and teams. Whether it is a single workshop or an ongoing series, I create environments where honest dialogue and new perspectives can emerge.",
   },
