@@ -9,12 +9,6 @@ const services = [
       "Taking responsibility for HR challenges from start to finish - from analysis and setting direction through to implementation. At executive and senior management level, this brings progress, sharper decision-making and clear insight into what is really going on.",
   },
   {
-    label: "Program Design",
-    title: "Designing development journeys that resonate",
-    description:
-      "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation.",
-  },
-  {
     label: "Program Leadership",
     title: "Guiding learning programs from vision to impact",
     description:
