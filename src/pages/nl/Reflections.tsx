@@ -105,7 +105,7 @@ const NlReflections = () => {
       <section className="border-b border-border">
         <div className="container-wide flex gap-8 overflow-x-auto">
           <a href="#reflections" className="text-sm tracking-wide py-4 border-b-2 border-primary text-primary font-medium">
-            Reflections
+            Reflecties
           </a>
           <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
             Publications
