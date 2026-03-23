@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 const services = [
 {
   label: "Strategic Advisory",
-  title: "Thinking alongside you",
+  title: "Bringing clarity & progress",
   description:
   "Taking responsibility for HR challenges from start to finish - from analysis and setting direction through to implementation. At executive and senior management level, this brings progress, sharper decision-making and clear insight into what is really going on."
 },
