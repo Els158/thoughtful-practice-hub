@@ -185,7 +185,7 @@ const NlReflections = () => {
           <div className="card-soft max-w-2xl">
             <h3 className="text-xl md:text-2xl font-serif mb-2">Programma Ontwikkel Canvas</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
+              Een praktisch hulpmiddel met sturende vragen voor het analyseren, ontwerpen en uitvoeren van leerinterventies — van probleemanalyse en stakeholdermapping tot deelnemersbehoeften en organisatorische fit.
             </p>
             <a
               href="/publications/program-development-canvas.docx"
