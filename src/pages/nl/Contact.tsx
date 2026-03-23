@@ -42,7 +42,7 @@ const NlContact = () => (
                 className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
               >
                 <Calendar size={20} className="text-primary" />
-                <span>Book a call</span>
+                <span>Plan een afspraak</span>
               </a>
             </div>
           </div>
