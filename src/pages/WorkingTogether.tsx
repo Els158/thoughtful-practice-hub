@@ -34,7 +34,9 @@ const WorkingTogether = () => (
         <p className="text-label mb-4">Working Together</p>
         <h1 className="mb-8">Ways of collaborating</h1>
         <p className="text-muted-foreground text-lg leading-relaxed mb-16">
-          Every collaboration begins with understanding your context. I work alongside organisations as a partner — not as a vendor delivering a fixed product, but as someone who thinks with you and adapts as the work unfolds.
+          ​Samenwerken gebeurt in de tussenruimte — in hoe gesprekken worden gevoerd, besluiten worden voorbereid en woorden worden gewogen. In die ruimte heb ik mijn vak ontwikkeld.
+          <br /><br />Mijn aanpak brengt perspectieven samen, zodat oplossingen ontstaan die niet alleen bedacht, maar ook gedragen worden in de praktijk. Vaak werk ik met een kleine groep, waarin vertrouwen en tegenspraak naast elkaar kunnen bestaan.
+          <br /><br />Spanning wordt daarbij niet vermeden, maar benut als bron van inzicht. Vanuit die manier van werken ontstaan verschillende vormen van samenwerking.
         </p>
       </div>
     </section>
