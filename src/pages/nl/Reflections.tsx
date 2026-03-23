@@ -14,7 +14,7 @@ const whitepapers = [
 {
   title: "Werk in transitie — Een HX benadering van organisatieontwerp",
   description:
-  "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
+  "Hoe kunnen organisaties werk zo vormgeven dat het mensen echt ondersteunt?\nDeze whitepaper verkent een Human Experience (HX)-benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende principes.",
   type: "Whitepaper",
   pdfUrl: "/publications/werk-in-transitie.pdf",
   language: "Dutch"
