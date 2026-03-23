@@ -9,7 +9,7 @@ const NlContact = () => (
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           <div>
             <p className="text-label mb-4">Contact</p>
-            <h1 className="mb-8">Get in touch</h1>
+            <h1 className="mb-8">Laten we kennismaken</h1>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               If you would like to explore whether I can contribute to your work or organisation, feel free to reach out. I am always open to a good conversation.
             </p>
