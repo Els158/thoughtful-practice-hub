@@ -9,7 +9,7 @@ const services = [
   "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity."
 },
 {
-  label: "Program Design",
+  label: "Program leadership",
   title: "Designing learning journeys that resonate",
   description:
   "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation."
