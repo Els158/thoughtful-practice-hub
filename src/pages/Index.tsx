@@ -77,7 +77,7 @@ const Index = () => {
         <div className="container-narrow text-center">
           <h2 className="mb-6">Let's start a conversation</h2>
           <p className="text-muted-foreground text-lg mx-auto mb-8">
-            If you would like to explore whether I can contribute to your work or organisation, I would be glad to hear from you.
+            I would be glad to hear from you.
           </p>
           <Link to="/contact" className="btn-primary">Get in touch</Link>
         </div>
