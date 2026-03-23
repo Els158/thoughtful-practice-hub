@@ -88,7 +88,7 @@ const NlReflections = () => {
             </button>
             <h3 className="text-xl font-serif mb-2">{downloadModal.title}</h3>
             <p className="text-muted-foreground text-sm mb-6">
-              Fill in your details to receive the download link.
+              Vul je gegevens in om de downloadlink te ontvangen.
             </p>
             <HubSpotForm />
           </div>
