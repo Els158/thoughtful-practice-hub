@@ -6,7 +6,7 @@ const whitepapers = [
 {
   title: "De positieve kracht van macht",
   description:
-  "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
+  "Een verkenning van vier typen machtsdynamiek in organisaties, geanalyseerd aan de hand van een concrete casus uit leren en ontwikkelen. Geschreven samen met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
   type: "Article",
   pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
   language: "Dutch"
