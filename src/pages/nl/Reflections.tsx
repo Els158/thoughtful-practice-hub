@@ -33,7 +33,7 @@ const whitepapers = [
   "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcast-serie. Els deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering wanneer het heden al veeleisend is.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "Walking into the Fog",
