@@ -10,7 +10,7 @@ const services = [
   },
   {
     label: "Program Design",
-    title: "Designing learning journeys that resonate",
+    title: "Designing development journeys that resonate",
     description:
       "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation.",
   },
