@@ -41,7 +41,7 @@ const whitepapers = [
   "Gebaseerd op een aflevering uit 2023 van de HR Top 100 Podcast reflecteert dit korte essay op de toekomst van zorgwerk en de verandervaardigheden die professionals nodig zullen hebben.",
   type: "Whitepaper",
   pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
-  language: "English"
+  language: "Engels"
 }];
 
 const HubSpotForm = () => {
