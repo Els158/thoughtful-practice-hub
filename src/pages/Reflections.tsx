@@ -197,11 +197,11 @@ const Reflections = () => {
             <h2 className="text-2xl md:text-3xl"> Tools  </h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program Development Canvas, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
+            Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program development checklist, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
 
           <div className="card-soft max-w-2xl">
-            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Program development checklist</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
             </p>
@@ -211,7 +211,7 @@ const Reflections = () => {
               className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
               
               <FileText size={16} />
-              Download Canvas (Word)
+              Download checklist (Word)
             </a>
           </div>
         </div>
