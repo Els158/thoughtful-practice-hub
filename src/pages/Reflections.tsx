@@ -25,7 +25,7 @@ const whitepapers = [
   description:
   "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
   type: "Article",
-  pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
+  pdfUrl: "https://zorgonderwijsvernieuwers.bsl.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
   language: "Dutch"
 },
 {
