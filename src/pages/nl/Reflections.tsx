@@ -6,15 +6,15 @@ const whitepapers = [
 {
   title: "De positieve kracht van macht",
   description:
-  "Een verkenning van vier typen machtsdynamiek in organisaties, geanalyseerd aan de hand van een concrete casus uit leren en ontwikkelen. Geschreven samen met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
+  "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
   type: "Article",
   pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
   language: "Dutch"
 },
 {
-  title: "Werk in transitie ",
+  title: "Werk in transitie — Een HX benadering van organisatieontwerp",
   description:
-  "Hoe kunnen organisaties werk zo vormgeven dat het mensen echt ondersteunt?\nDeze whitepaper verkent een Human Experience (HX)-benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende principes.",
+  "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
   type: "Whitepaper",
   pdfUrl: "/publications/werk-in-transitie.pdf",
   language: "Dutch"
@@ -22,7 +22,7 @@ const whitepapers = [
 {
   title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
   description:
-  "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben - en hoe onderwijs en praktijk die samen kunnen ontwikkelen.\nGepubliceerd op Zorgonderwijsvernieuwers.",
+  "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
   type: "Article",
   pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
   language: "Dutch"
@@ -30,7 +30,7 @@ const whitepapers = [
 {
   title: "HR Top 100 Podcast",
   description:
-  "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcastserie.\nEls deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering in een context waarin het heden al volop vraagt.",
+  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
   language: "Dutch"
@@ -98,7 +98,7 @@ const NlReflections = () => {
       <section className="pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="container-narrow">
           <p className="text-label mb-4">Reflections & Inspiration</p>
-          <h1>Uit de praktijk</h1>
+          <h1>Ideas from practice</h1>
         </div>
       </section>
 
@@ -124,7 +124,7 @@ const NlReflections = () => {
           </div>
           <article className="card-soft max-w-3xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Soms valt mij iets op - een gesprek, een afbeelding, een moment op straat - en groeit dat uit tot een reflectie op werk, leiderschap of het gedoe binnen organisaties. Mijn teksten beginnen vaak ergens onverwacht, voordat ze uitkomen bij wat er werkelijk toe doet.
+              Reflecties
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Publicaties
@@ -152,7 +152,7 @@ const NlReflections = () => {
             <div key={i} className="card-soft flex flex-col">
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed flex-1 whitespace-pre-wrap">{w.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
                 {w.pdfUrl ?
               <a
                 href={w.pdfUrl}
