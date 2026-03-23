@@ -11,7 +11,7 @@ const NlContact = () => (
             <p className="text-label mb-4">Contact</p>
             <h1 className="mb-8">Laten we kennismaken</h1>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              If you would like to explore whether I can contribute to your work or organisation, feel free to reach out. I am always open to a good conversation.
+              Benieuwd of ik wat voor je kan betekenen? Stel gerust je vraag.
             </p>
 
             <div className="space-y-6">
