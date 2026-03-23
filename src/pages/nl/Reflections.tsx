@@ -180,7 +180,7 @@ const NlReflections = () => {
             <h2 className="text-2xl md:text-3xl">Tools</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is het Programma Ontwikkel Canvas, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
+            Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is de Programma Ontwikkel checklist, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
           <div className="card-soft max-w-2xl">
             <h3 className="text-xl md:text-2xl font-serif mb-2">Programma Ontwikkel checklist</h3>
