@@ -6,7 +6,7 @@ const services = [
   label: "Strategic Advisory",
   title: "Thinking alongside you",
   description:
-  "Working as a thought partner on leadership, learning and organisational development questions. This can range from shaping a learning strategy to advising on talent development or supporting leaders through complexity."
+  "Taking responsibility for HR challenges from start to finish - from analysis and setting direction through to implementation. At executive and senior management level, this brings progress, sharper decision-making and clear insight into what is really going on."
 },
 {
   label: "Program leadership",
