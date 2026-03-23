@@ -159,7 +159,7 @@ const NlReflections = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 text-sm text-primary font-medium cursor-pointer hover:underline inline-block">
-                    {w.type === 'Podcast' ? 'Listen to podcast' : w.pdfUrl.startsWith('http') ? 'Read article' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
+                    {w.type === 'Podcast' ? 'Luister naar podcast' : w.pdfUrl.startsWith('http') ? 'Lees artikel' : 'Download PDF'}{w.language ? ` (${w.language})` : ''}
                   </a> :
               <p
                 onClick={() => handleDownloadClick(w.title)}
