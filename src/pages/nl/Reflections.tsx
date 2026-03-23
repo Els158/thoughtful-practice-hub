@@ -152,7 +152,7 @@ const NlReflections = () => {
             <div key={i} className="card-soft flex flex-col">
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1 whitespace-pre-wrap">{w.description}</p>
                 {w.pdfUrl ?
               <a
                 href={w.pdfUrl}
