@@ -3,46 +3,47 @@ import Layout from "@/components/Layout";
 import { FileText, Wrench, PenLine, X, Linkedin } from "lucide-react";
 
 const whitepapers = [
-{
-  title: "De positieve kracht van macht",
-  description:
-  "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
-  type: "Article",
-  pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
-  language: "Dutch"
-},
-{
-  title: "Werk in transitie — Een HX benadering van organisatieontwerp",
-  description:
-  "How can organisations design work that truly supports people? This whitepaper explores a Human Experience (HX) approach to organisation design, with reflective dialogue, design space and safe leadership as three guiding pillars.",
-  type: "Whitepaper",
-  pdfUrl: "/publications/werk-in-transitie.pdf",
-  language: "Dutch"
-},
-{
-  title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
-  description:
-  "Why future healthcare professionals need change skills — and how education and practice can develop them together. Published on Zorgonderwijsvernieuwers.",
-  type: "Article",
-  pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
-  language: "Dutch"
-},
-{
-  title: "HR Top 100 Podcast",
-  description:
-  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
-  type: "Podcast",
-  pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
-  language: "Dutch"
-},
-{
-  title: "Walking into the Fog",
-  description:
-  "Based on a 2023 episode of the Dutch HR Top 100 Podcast, this short essay reflects on the future of healthcare work and the change skills professionals will need.",
-  type: "Whitepaper",
-  pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
-  language: "English"
-}];
+  {
+    title: "De positieve kracht van macht",
+    description:
+      "An exploration of four types of power dynamics in organisations, analysed through a real learning & development case. Co-authored with Martin Hetebrij, published in Tijdschrift voor Begeleidingskunde (2018).",
+    type: "Article",
+    pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
+    language: "Dutch"
+  },
+  {
+    title: "Werk in transitie ",
+    description:
+      "Hoe kunnen organisaties werk zo vormgeven dat het mensen echt ondersteunt? Deze whitepaper verkent een Human Experience (HX) benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende principes.",
+    type: "Whitepaper",
+    pdfUrl: "/publications/werk-in-transitie.pdf",
+    language: "Dutch"
+  },
+  {
+    title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
+    description:
+      "Waarom toekomstige zorgprofessionals veranderkundige vaardigheden nodig hebben — en hoe onderwijs en praktijk die samen kunnen ontwikkelen.\nGepubliceerd op Zorgonderwijsvernieuwers.",
+    type: "Article",
+    pdfUrl: "https://www.zorgonderwijsvernieuwers.nl/de-zorgmedewerker-van-de-toekomst-ontwikkelt-verandervaardigheden/",
+    language: "Dutch"
+  },
+  {
+    title: "HR Top 100 Podcast",
+    description:
+      "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcastserie.\nEls deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering in een context waarin het heden al volop vraagt.",
+    type: "Podcast",
+    pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
+    language: "Dutch"
+  },
+  {
+    title: "Walking into the Fog",
+    description:
+      "Engelstalig artikel, gebaseerd op de aflevering uit 2023 van de HR Top 100 Podcast. Kort essay over de toekomst van werken in de zorg en de veranderkundige vaardigheden die professionals daarvoor nodig hebben.",
+    type: "Whitepaper",
+    pdfUrl: "/publications/walking-into-the-fog-els-oosthoek.pdf",
+    language: "English"
+  }
+];
 
 const HubSpotForm = () => {
   const containerRef = useRef<HTMLDivElement>(null);
