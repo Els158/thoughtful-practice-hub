@@ -30,7 +30,7 @@ const whitepapers = [
 {
   title: "HR Top 100 Podcast",
   description:
-  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
+  "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcast-serie. Els deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering wanneer het heden al veeleisend is.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
   language: "Dutch"
