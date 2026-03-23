@@ -30,7 +30,7 @@ const whitepapers = [
 {
   title: "HR Top 100 Podcast",
   description:
-  "A conversation about the future of organisational development in healthcare, recorded for the HR Top 100 Podcast series. Els shares her perspective as CHRO at Topaz on navigating change when the present is already demanding.",
+  "Een gesprek over de toekomst van organisatieontwikkeling in de zorg, opgenomen voor de HR Top 100 Podcastserie.\nEls deelt haar perspectief als CHRO bij Topaz over het navigeren van verandering in een context waarin het heden al volop vraagt.",
   type: "Podcast",
   pdfUrl: "https://hrtop100.nl/visies/els-oosthoek/",
   language: "Dutch"
@@ -152,7 +152,7 @@ const NlReflections = () => {
             <div key={i} className="card-soft flex flex-col">
                 <span className="text-label mb-3">{w.type}</span>
                 <h3 className="text-lg md:text-xl mb-4 font-serif">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{w.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1 whitespace-pre-wrap">{w.description}</p>
                 {w.pdfUrl ?
               <a
                 href={w.pdfUrl}
