@@ -34,9 +34,9 @@ const WorkingTogether = () => (
         <p className="text-label mb-4">Working Together</p>
         <h1 className="mb-8">Ways of collaborating</h1>
         <p className="text-muted-foreground text-lg leading-relaxed mb-16">
-          Collaboration happens in the in-between spaces — in how conversations are held, decisions are prepared and words are weighed. That is where I have developed my craft.
-          <br /><br />My approach brings perspectives together, so that solutions emerge that are not only thought through, but also carried in practice. Often I work with a small group, where trust and constructive challenge can coexist.
-          <br /><br />Tension is not avoided, but used as a source of insight. From this way of working, different forms of collaboration take shape.
+          Collaboration takes shape in the space in between — in how conversations are held, decisions are prepared, and words are weighed. It is in that space that I developed my craft.
+          <br /><br />My approach brings different perspectives together, allowing solutions to emerge that are not only well considered, but also supported in practice. I often work with a small group, where trust and constructive challenge can exist side by side.
+          <br /><br />Tension is not avoided, but used as a source of insight. From this way of working, different forms of collaboration emerge.
         </p>
       </div>
     </section>
