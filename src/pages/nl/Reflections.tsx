@@ -17,7 +17,7 @@ const whitepapers = [
   "Hoe kunnen organisaties werk ontwerpen dat mensen echt ondersteunt? Deze whitepaper verkent een Human Experience (HX)-benadering van organisatieontwerp, met reflectieve dialoog, ontwerpruimte en veilig leiderschap als drie leidende pijlers.",
   type: "Whitepaper",
   pdfUrl: "/publications/werk-in-transitie.pdf",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "De zorgmedewerker van de toekomst ontwikkelt verandervaardigheden",
