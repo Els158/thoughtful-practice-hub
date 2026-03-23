@@ -183,7 +183,7 @@ const NlReflections = () => {
             Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is het Programma Ontwikkel Canvas, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
           </p>
           <div className="card-soft max-w-2xl">
-            <h3 className="text-xl md:text-2xl font-serif mb-2">Program Development Canvas</h3>
+            <h3 className="text-xl md:text-2xl font-serif mb-2">Programma Ontwikkel Canvas</h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               A practical tool with guiding questions for analysing, designing and executing learning interventions — from problem analysis and stakeholder mapping to participant needs and organisational fit.
             </p>
