@@ -194,7 +194,7 @@ const Reflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-4">
             <Wrench size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl"> Learning Canvases  </h2>
+            <h2 className="text-2xl md:text-3xl"> Tools  </h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
             Learning is at the heart of organisational development. In the coming months, I will build a collection of evidence- and theory-based canvases here that can support organisations during transformations. The first is the Program Development Canvas, based on the eight learning perspectives described by Dutch learning scholar Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
