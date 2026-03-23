@@ -7,7 +7,7 @@ const whitepapers = [
   title: "De positieve kracht van macht",
   description:
   "Een verkenning van vier typen machtsdynamiek in organisaties, geanalyseerd aan de hand van een concrete casus uit leren en ontwikkelen. Geschreven samen met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
-  type: "Article",
+  type: "Artikel",
   pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
   language: "Dutch"
 },
