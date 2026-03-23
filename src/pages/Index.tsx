@@ -76,9 +76,6 @@ const Index = () => {
       <section className="section-padding bg-secondary">
         <div className="container-narrow text-center">
           <h2 className="mb-6">Let's start a conversation</h2>
-          <p className="text-muted-foreground text-lg mx-auto mb-8">
-            I would be glad to hear from you.
-          </p>
           <Link to="/contact" className="btn-primary">Get in touch</Link>
         </div>
       </section>
