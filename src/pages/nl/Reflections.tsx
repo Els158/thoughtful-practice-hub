@@ -108,7 +108,7 @@ const NlReflections = () => {
             Reflecties
           </a>
           <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            Publications
+            Publicaties
           </a>
           <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
             ​Learning Canvases
