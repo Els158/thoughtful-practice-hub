@@ -72,9 +72,6 @@ const NlIndex = () => {
       <section className="section-padding bg-secondary">
         <div className="container-narrow text-center">
           <h2 className="mb-6">Stel gerust je vraag</h2>
-          <p className="text-muted-foreground text-lg mx-auto mb-8">
-            Benieuwd of ik wat voor je kan betekenen? Stel gerust je vraag.
-          </p>
           <Link to="/nl/contact" className="btn-primary">​Laten we kennismaken</Link>
         </div>
       </section>
