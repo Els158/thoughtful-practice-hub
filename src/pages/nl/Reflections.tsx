@@ -9,7 +9,7 @@ const whitepapers = [
   "Een verkenning van vier typen machtsdynamiek in organisaties, geanalyseerd aan de hand van een concrete casus uit leren en ontwikkelen. Geschreven samen met Martin Hetebrij, gepubliceerd in Tijdschrift voor Begeleidingskunde (2018).",
   type: "Artikel",
   pdfUrl: "/publications/de-positieve-kracht-van-macht.pdf",
-  language: "Dutch"
+  language: "Nederlands"
 },
 {
   title: "Werk in transitie — Een HX benadering van organisatieontwerp",
