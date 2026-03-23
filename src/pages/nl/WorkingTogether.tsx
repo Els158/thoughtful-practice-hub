@@ -49,7 +49,7 @@ const NlWorkingTogether = () =>
     <section className="section-padding bg-secondary">
       <div className="container-narrow text-center">
         <h2 className="mb-6">Meer weten?</h2>
-        <Link to="/nl/contact" className="btn-primary">Plan een kennismaking in</Link>
+        <Link to="/nl/contact" className="btn-primary">Laten we kennismaken</Link>
       </div>
     </section>
   </Layout>;export default NlWorkingTogether;
