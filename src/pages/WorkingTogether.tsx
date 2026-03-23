@@ -54,7 +54,7 @@ const WorkingTogether = () =>
         <p className="text-muted-foreground text-lg mx-auto mb-8">
           I would be happy to explore how I can contribute to your organisation's learning and leadership goals.
         </p>
-        <Link to="/contact" className="btn-primary">A partner in navigating complexity</Link>
+        <Link to="/contact" className="btn-primary">HR mentoring</Link>
       </div>
     </section>
   </Layout>;
