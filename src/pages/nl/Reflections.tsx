@@ -111,7 +111,7 @@ const NlReflections = () => {
             Publicaties
           </a>
           <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            ​Leercanvassen
+            ​Tools
           </a>
         </div>
       </section>
@@ -177,7 +177,7 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-4">
             <Wrench size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">Leercanvassen</h2>
+            <h2 className="text-2xl md:text-3xl">Tools</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-10">
             Leren staat centraal in organisatieontwikkeling. De komende maanden bouw ik hier een collectie evidence- en theorie-gebaseerde canvassen op die organisaties kunnen ondersteunen bij transformaties. De eerste is het Programma Ontwikkel Canvas, gebaseerd op de acht leerperspectieven beschreven door leeronderzoeker Manon Ruijters in <em>Liefde voor Leren</em> (Kluwer, 2006).
