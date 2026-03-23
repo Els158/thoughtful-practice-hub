@@ -70,23 +70,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* How I work */}
-      <section className="section-padding">
-        <div className="container-narrow">
-          <p className="text-label mb-4">How I work</p>
-          <h2 className="mb-8">Collaborative by nature</h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            ​Collaboration happens in the space in between. In how conversations unfold, how decisions are prepared, and how words are chosen.
-Over the years, I have developed a strong craft in working in that space. Through my approach, I bring different perspectives together, creating room for solutions that are supported in practice.
-          
-          
-          </p>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            I often work on complex challenges with a small group, where trust and constructive challenge can coexist. In this way, tension is not avoided, but used as a source of insight.
-          </p>
-          <Link to="/reflections" className="btn-outline">Explore reflections & tools</Link>
-        </div>
-      </section>
 
 
       {/* Contact CTA */}
