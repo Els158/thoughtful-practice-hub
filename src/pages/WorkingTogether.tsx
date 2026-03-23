@@ -15,10 +15,10 @@ const services = [
   "Creating learning experiences for leaders and professionals that combine theory with practice, reflection with action. Each program is shaped around the specific context, culture and goals of the organisation."
 },
 {
-  label: "Program Leadership",
-  title: "Guiding learning programs from vision to impact",
+  label: "Executive Sparring",
+  title: "A partner in navigating complexity",
   description:
-  "Managing and guiding leadership development programs or internal academies — from initial design through delivery and evaluation. I bring structure, strategic oversight and a deep understanding of how people learn."
+  "Sparring for leaders and HR professionals navigating complex challenges. I help clarify what is really going on, bring together different perspectives, and think through choices and interventions that work in practice."
 },
 {
   label: "Facilitation & Reflection",
