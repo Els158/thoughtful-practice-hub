@@ -108,7 +108,7 @@ const NlReflections = () => {
             Reflecties
           </a>
           <a href="#publications" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            Publicaties
+            Publicaties & whitepapers
           </a>
           <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
             ​Tools
@@ -145,7 +145,7 @@ const NlReflections = () => {
         <div className="container-wide">
           <div className="flex items-center gap-3 mb-10">
             <FileText size={20} className="text-primary" />
-            <h2 className="text-2xl md:text-3xl">Publicaties</h2>
+            <h2 className="text-2xl md:text-3xl">Publicaties & whitepapers</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {whitepapers.map((w, i) =>
