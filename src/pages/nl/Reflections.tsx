@@ -133,9 +133,9 @@ const NlReflections = () => {
               href="https://www.linkedin.com/in/elsoosthoek/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">​Tools  
+              className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline">
               <Linkedin size={16} />
-              Follow my reflections on LinkedIn
+              Volg mijn reflecties op LinkedIn
             </a>
           </article>
         </div>
