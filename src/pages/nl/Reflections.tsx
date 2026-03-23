@@ -111,7 +111,7 @@ const NlReflections = () => {
             Publicaties
           </a>
           <a href="#tools" className="text-sm tracking-wide py-4 border-b-2 border-transparent text-muted-foreground hover:text-foreground transition-colors">
-            ​Leercanvassen
+            ​Tools
           </a>
         </div>
       </section>
