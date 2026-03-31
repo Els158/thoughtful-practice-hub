@@ -4,7 +4,7 @@ import heroDunes from "@/assets/hero-dunes.jpg";
 
 const workAreas = [
 {
-  title: "Interim HR management & ontwikkeling",
+  title: "Interim HR & ontwikkeling",
   description: "Tijdelijke inzet op senior niveau. Verankering van groei en organisatieontwikkeling in de dagelijkse praktijk."
 },
 {
