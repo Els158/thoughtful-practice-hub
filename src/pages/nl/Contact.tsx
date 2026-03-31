@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import { Mail, Calendar } from "lucide-react";
+import { Mail } from "lucide-react";
 import elsPortrait from "@/assets/els-portrait-brown.jpg";
 
 const NlContact = () => (
@@ -34,24 +34,15 @@ const NlContact = () => (
                 </svg>
                 <span>Els Oosthoek | LinkedIn</span>
               </a>
-
-              <a
-                href="https://calendly.com/oosthoek"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
-              >
-                <Calendar size={20} className="text-primary" />
-                <span>Plan een afspraak</span>
-              </a>
             </div>
           </div>
 
-          <div className="flex flex-col items-center text-center gap-6">
+          {/* Afbeelding + CTA */}
+          <div className="card-soft flex flex-col items-center text-center gap-5 py-10 px-8">
             <img
               src={elsPortrait}
               alt="Els Oosthoek"
-              className="w-full max-w-[12rem] mx-auto rounded-2xl object-cover object-top shadow-md"
+              className="w-full max-w-[12rem] rounded-2xl object-cover object-top shadow-md"
             />
             <h2 className="text-2xl md:text-3xl">Laten we een gesprek starten</h2>
             <a
