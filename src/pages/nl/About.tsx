@@ -36,7 +36,7 @@ const NlAbout = () =>
           Ik woon en werk in Overveen en heb mijn loopbaan opgebouwd in zowel consultancy als interne HR-leiderschapsrollen. Mijn opleiding volgde ik onder andere bij SIOO en de Universiteit Utrecht.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          Daarnaast ben ik actief als lid van de Raad van Advies van het Bakery Institute, als mentor bij Stichting Anne-Bo en als jurylid voor het Ooa–SIOO Managementboek van het Jaar.
+          Daarnaast ben ik actief als lid van de Raad van Advies van het Bakery Institute, als mentor bij Stichting Anne-Bo en als jurylid voor het Ooa–SIOO Managementboek van het Jaar. Ik ben lid van het SER Topvrouwen netwerk.
         </p>
       </div>
     </section>
