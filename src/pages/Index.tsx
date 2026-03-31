@@ -31,9 +31,9 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="space-y-8">
               <div>
-                <p className="text-label mb-3">​fractional people & culture leadership        </p>
-                <h1 className="text-foreground">
-                  Bringing development into the heart of organisations.
+                <p className="text-label mb-3">Fractional ​People & culture leadership </p>
+                <h1 className="text-foreground text-4xl">
+                  ​Experienced people & culture leadership - without a fulltime role. 
                 </h1>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
