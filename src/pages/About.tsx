@@ -40,7 +40,7 @@ const About = () =>
           Based in Overveen, the Netherlands, I have built my career across consulting and in-house HR leadership roles. My education includes SIOO and Utrecht University.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          ​I also contribute beyond my client work: as a member of the Advisory Board of the Bakery Institute, as a mentor for Stichting Anne-Bo, and as a jury member for the Ooa–Sioo Management Book of the Year.
+          ​I also contribute beyond my client work: as a member of the Advisory Board of the Bakery Institute, as a mentor for Stichting Anne-Bo, and as a jury member for the Ooa–Sioo Management Book of the Year.  I am a member of SER Topvrouwen.
         </p>
       </div>
     </section>
