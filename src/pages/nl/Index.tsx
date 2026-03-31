@@ -30,8 +30,8 @@ const NlIndex = () => {
             <div className="space-y-8">
               <div>
                 <p className="text-label mb-3">​interim HR & organisatieontwikkeling         </p>
-                <h1 className="text-foreground">
-                  Ontwikkeling in het  hart van je organisatie.
+                <h1 className="text-foreground text-4xl">
+                  ​Ervaren HR leiderschap – zonder fulltime rol.
                 
                 
                 </h1>
