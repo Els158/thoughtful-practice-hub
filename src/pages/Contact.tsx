@@ -48,13 +48,22 @@ const Contact = () => (
             </div>
           </div>
 
-          {/* Image side — portrait on scenery */}
-          <div>
+          {/* Image side */}
+          <div className="flex flex-col items-center text-center gap-6">
             <img
               src={elsPortrait}
               alt="Els Oosthoek"
-              className="w-full max-w-xs mx-auto rounded-2xl object-cover object-top shadow-md"
+              className="w-full max-w-[12rem] mx-auto rounded-2xl object-cover object-top shadow-md"
             />
+            <h2 className="text-2xl md:text-3xl">Let's start a conversation</h2>
+            <a
+              href="https://calendly.com/oosthoek"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Book a call
+            </a>
           </div>
         </div>
       </div>
